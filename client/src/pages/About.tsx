@@ -4,10 +4,10 @@ import aboutImage from "@assets/Introduce_1762357190906.png";
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="pt-32 pb-16">
+      <main className="pt-32 pb-16 flex-1">
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12 flex justify-center">
             <img

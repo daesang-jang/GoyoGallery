@@ -9,10 +9,10 @@ import img4 from '@assets/generated_images/Contemporary_Korean_landscape_657013a
 
 export default function ExhibitionDetail() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="pt-32 pb-16">
+      <main className="pt-32 pb-16 flex-1">
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-foreground" data-testid="text-exhibition-title">

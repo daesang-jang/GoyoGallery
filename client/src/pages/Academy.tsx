@@ -25,10 +25,10 @@ export default function Academy() {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="pt-32 pb-16">
+      <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">아카데미</h1>

@@ -35,10 +35,10 @@ export default function Home() {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="pt-16">
+      <main className="pt-16 flex-1">
         <section className="relative h-[70vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <img

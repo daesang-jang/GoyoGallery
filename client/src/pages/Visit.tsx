@@ -5,10 +5,10 @@ import splashImage from "@assets/Splash_1762350455042.png";
 
 export default function Visit() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
       
-      <main className="pt-32 pb-16">
+      <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">방문안내</h1>
