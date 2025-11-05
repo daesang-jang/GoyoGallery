@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import aboutImage from "@assets/Splash_1762350455042.png";
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12 flex justify-center">
             <img
-              src="/attached_assets/스크린샷%202025-11-06%20오전%2012.30.43_1762356650371.png"
+              src={aboutImage}
               alt="GOYO GALLERY"
               className="w-full max-w-2xl"
               data-testid="img-about"
