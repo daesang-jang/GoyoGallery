@@ -29,27 +29,26 @@ export default function UpcomingExhibitions() {
       <main className="pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">예정 전시</h1>
-            <div className="h-px w-24 bg-border mb-6" />
+            <h1 className="text-4xl md:text-4xl font-semibold mb-4 text-foreground" data-testid="text-page-title">Exhibition</h1>
+            <div className="h-px w-44 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl">
-              다가오는 전시를 미리 만나보세요
             </p>
           </div>
 
           <div className="mb-8 flex gap-4 flex-wrap">
             <Link href="/exhibitions/current">
               <button className="px-4 py-2 text-sm font-medium hover-elevate active-elevate-2 rounded-md" data-testid="button-filter-current">
-                현재 전시
+                Current
               </button>
             </Link>
             <Link href="/exhibitions/upcoming">
               <button className="px-4 py-2 text-sm font-medium bg-accent text-accent-foreground rounded-md" data-testid="button-filter-upcoming">
-                예정 전시
+                Upcoming
               </button>
             </Link>
             <Link href="/exhibitions/past">
               <button className="px-4 py-2 text-sm font-medium hover-elevate active-elevate-2 rounded-md" data-testid="button-filter-past">
-                지난 전시
+                Past
               </button>
             </Link>
           </div>

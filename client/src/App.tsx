@@ -11,6 +11,7 @@ import UpcomingExhibitions from "@/pages/UpcomingExhibitions";
 import PastExhibitions from "@/pages/PastExhibitions";
 import ExhibitionDetail from "@/pages/ExhibitionDetail";
 import Artists from "@/pages/Artists";
+import ArtistDetail from "@/pages/ArtistDetail";
 import PublicArt from "@/pages/PublicArt";
 import Consulting from "@/pages/Consulting";
 import Academy from "@/pages/Academy";
@@ -27,6 +28,7 @@ function Router() {
       <Route path="/exhibitions/past" component={PastExhibitions} />
       <Route path="/exhibitions/detail/:id" component={ExhibitionDetail} />
       <Route path="/artists" component={Artists} />
+      <Route path="/artists/:id" component={ArtistDetail} />
       <Route path="/public-art" component={PublicArt} />
       <Route path="/consulting" component={Consulting} />
       <Route path="/academy" component={Academy} />
