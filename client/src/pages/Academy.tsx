@@ -77,9 +77,9 @@ export default function Academy() {
           </div>
 
           <div className="bg-card rounded-lg p-8 md:p-12 border border-card-border text-center">
-            <h2 className="text-2xl font-semibold mb-4 text-card-foreground">2025년 1월 신규 강좌 모집</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-card-foreground">2026년 새롭게 시작됩니다 </h2>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
-              새해를 맞아 다양한 강좌를 준비했습니다. 지금 신청하시면 얼리버드 할인 혜택을 받으실 수 있습니다
+              rhdyro
             </p>
             <button className="px-8 py-3 bg-primary text-primary-foreground rounded-md hover-elevate active-elevate-2 font-medium" data-testid="button-apply-academy">
               수강 신청하기
