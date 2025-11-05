@@ -17,7 +17,16 @@ export default function Splash() {
       <img
         src={splashImage}
         alt="GOYO Gallery"
-        className="w-auto h-auto max-w-[80%] max-h-[80%] transition-all duration-300 hover:invert"
+        className="w-auto h-auto max-w-[35%] max-h-[35%] transition-all duration-300"
+        style={{
+          filter: 'none',
+        }}
+        onMouseEnter={(e) => {
+          e.currentTarget.style.filter = 'invert(1) brightness(2)';
+        }}
+        onMouseLeave={(e) => {
+          e.currentTarget.style.filter = 'none';
+        }}
         data-testid="splash-image"
       />
     </div>
