@@ -18,34 +18,6 @@ export default function CurrentExhibitions() {
       date: "2024.11.01 - 2024.12.15",
       image: img1,
     },
-    {
-      id: "2",
-      title: "Light and Shadow",
-      artist: "이지연",
-      date: "2024.11.10 - 2024.12.20",
-      image: img2,
-    },
-    {
-      id: "3",
-      title: "Ceramic Forms",
-      artist: "박소연",
-      date: "2024.11.15 - 2025.01.10",
-      image: img3,
-    },
-    {
-      id: "4",
-      title: "Mountain Mist",
-      artist: "정민호",
-      date: "2024.11.20 - 2025.01.15",
-      image: img4,
-    },
-    {
-      id: "5",
-      title: "Expressive Gestures",
-      artist: "최은정",
-      date: "2024.11.25 - 2025.01.20",
-      image: img5,
-    },
   ];
 
   return (
@@ -80,10 +52,12 @@ export default function CurrentExhibitions() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-            {exhibitions.map((exhibition) => (
-              <ExhibitionCard key={exhibition.title} {...exhibition} />
-            ))}
+          <div className="flex justify-center">
+            <div className="w-full max-w-md">
+              {exhibitions.map((exhibition) => (
+                <ExhibitionCard key={exhibition.title} {...exhibition} />
+              ))}
+            </div>
           </div>
         </div>
       </main>
