@@ -6,7 +6,9 @@ export default function Splash() {
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   const handleClick = () => {
-    setIsTransitioning(true);
+    requestAnimationFrame(() => {
+      setIsTransitioning(true);
+    });
     setTimeout(() => {
       setLocation("/home");
     }, 2000);
