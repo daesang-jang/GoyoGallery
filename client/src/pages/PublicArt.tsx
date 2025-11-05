@@ -57,7 +57,7 @@ export default function PublicArt() {
               project.image ? (
                 <Link key={project.id} href={`/public-art/${project.id}`}>
                   <div className="group cursor-pointer" data-testid={`card-project-${project.title}`}>
-                    <div className="aspect-[3/4] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
+                    <div className="aspect-[16/10] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
                       <img
                         src={project.image}
                         alt={project.title}
@@ -73,7 +73,7 @@ export default function PublicArt() {
                 </Link>
               ) : (
                 <div key={project.id} className="group" data-testid={`card-project-${project.title}`}>
-                  <div className="aspect-[3/4] bg-muted/30 rounded-md mb-4">
+                  <div className="aspect-[16/10] bg-muted/30 rounded-md mb-4">
                   </div>
                   <h3 className="text-lg font-semibold mb-2 text-muted-foreground">{project.title}</h3>
                 </div>
