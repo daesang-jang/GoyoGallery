@@ -51,7 +51,7 @@ export default function Home() {
           
           <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-7xl font-semibold mb-6 tracking-wide" data-testid="text-hero-title">
-              현대 미술의 가치를 발견하다
+              현대 미술 고요 갤러리
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
               GOYO Gallery는 새로운 시각 예술의 경험을 제공합니다
