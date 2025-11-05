@@ -1,36 +1,25 @@
 import { useLocation } from "wouter";
-import { useState } from "react";
+import splashImage from "@assets/Splash_1762350455042.png";
 
 export default function Splash() {
   const [, setLocation] = useLocation();
-  const [isTransitioning, setIsTransitioning] = useState(false);
 
   const handleClick = () => {
-    requestAnimationFrame(() => {
-      setIsTransitioning(true);
-    });
-    setTimeout(() => {
-      setLocation("/home");
-    }, 2000);
+    setLocation("/home");
   };
 
   return (
     <div
       onClick={handleClick}
-      className="fixed inset-0 flex flex-col items-center justify-center cursor-pointer transition-all duration-[2000ms]"
-      style={{ 
-        backgroundColor: isTransitioning ? '#ffffff' : '#2e5faf'
-      }}
+      className="fixed inset-0 flex items-center justify-center bg-white cursor-pointer"
       data-testid="splash-container"
     >
-      <h1 
-        className="text-6xl md:text-8xl lg:text-9xl font-semibold tracking-wider transition-all duration-[2000ms]"
-        style={{
-          color: isTransitioning ? '#2e5faf' : '#ffffff'
-        }}
-      >
-        GOYO Gallery
-      </h1>
+      <img
+        src={splashImage}
+        alt="GOYO Gallery"
+        className="w-auto h-auto max-w-[80%] max-h-[80%] transition-all duration-300 hover:invert"
+        data-testid="splash-image"
+      />
     </div>
   );
 }
