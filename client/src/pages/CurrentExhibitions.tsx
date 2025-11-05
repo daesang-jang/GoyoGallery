@@ -12,30 +12,35 @@ import img5 from '@assets/generated_images/Abstract_expressionist_painting_1825f
 export default function CurrentExhibitions() {
   const exhibitions = [
     {
-      title: "Geometric Abstractions",
-      artist: "김현우",
+      id: "1",
+      title: "침묵과 물질 사이",
+      artist: "Glenn Ligon, Jack Whitten, Jeff Elrod, 이건용, 이우환",
       date: "2024.11.01 - 2024.12.15",
       image: img1,
     },
     {
+      id: "2",
       title: "Light and Shadow",
       artist: "이지연",
       date: "2024.11.10 - 2024.12.20",
       image: img2,
     },
     {
+      id: "3",
       title: "Ceramic Forms",
       artist: "박소연",
       date: "2024.11.15 - 2025.01.10",
       image: img3,
     },
     {
+      id: "4",
       title: "Mountain Mist",
       artist: "정민호",
       date: "2024.11.20 - 2025.01.15",
       image: img4,
     },
     {
+      id: "5",
       title: "Expressive Gestures",
       artist: "최은정",
       date: "2024.11.25 - 2025.01.20",

@@ -9,6 +9,7 @@ import Home from "@/pages/Home";
 import CurrentExhibitions from "@/pages/CurrentExhibitions";
 import UpcomingExhibitions from "@/pages/UpcomingExhibitions";
 import PastExhibitions from "@/pages/PastExhibitions";
+import ExhibitionDetail from "@/pages/ExhibitionDetail";
 import Artists from "@/pages/Artists";
 import PublicArt from "@/pages/PublicArt";
 import Consulting from "@/pages/Consulting";
@@ -24,6 +25,7 @@ function Router() {
       <Route path="/exhibitions/current" component={CurrentExhibitions} />
       <Route path="/exhibitions/upcoming" component={UpcomingExhibitions} />
       <Route path="/exhibitions/past" component={PastExhibitions} />
+      <Route path="/exhibitions/detail/:id" component={ExhibitionDetail} />
       <Route path="/artists" component={Artists} />
       <Route path="/public-art" component={PublicArt} />
       <Route path="/consulting" component={Consulting} />

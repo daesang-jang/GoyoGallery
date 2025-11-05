@@ -1,14 +1,16 @@
 import { Calendar } from "lucide-react";
 
+import { Link } from "wouter";
+
 interface ExhibitionCardProps {
   title: string;
   artist: string;
   date: string;
   image: string;
-  href?: string;
+  id?: string;
 }
 
-export default function ExhibitionCard({ title, artist, date, image, href }: ExhibitionCardProps) {
+export default function ExhibitionCard({ title, artist, date, image, id }: ExhibitionCardProps) {
   const CardContent = () => (
     <div className="group cursor-pointer" data-testid={`card-exhibition-${title.replace(/\s+/g, '-').toLowerCase()}`}>
       <div className="relative aspect-[3/4] overflow-hidden bg-muted rounded-md">
@@ -39,11 +41,11 @@ export default function ExhibitionCard({ title, artist, date, image, href }: Exh
     </div>
   );
 
-  if (href) {
+  if (id) {
     return (
-      <a href={href} className="block">
+      <Link href={`/exhibitions/detail/${id}`}>
         <CardContent />
-      </a>
+      </Link>
     );
   }
 

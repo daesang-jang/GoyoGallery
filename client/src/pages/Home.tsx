@@ -12,18 +12,21 @@ import heroImg from '@assets/generated_images/Installation_art_exhibition_718ac9
 export default function Home() {
   const currentExhibitions = [
     {
-      title: "Geometric Abstractions",
-      artist: "김현우",
+      id: "1",
+      title: "침묵과 물질 사이",
+      artist: "Glenn Ligon, Jack Whitten, Jeff Elrod, 이건용, 이우환",
       date: "2024.11.01 - 2024.12.15",
       image: img1,
     },
     {
+      id: "2",
       title: "Light and Shadow",
       artist: "이지연",
       date: "2024.11.10 - 2024.12.20",
       image: img2,
     },
     {
+      id: "3",
       title: "Ceramic Forms",
       artist: "박소연",
       date: "2024.11.15 - 2025.01.10",
