@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import aboutImage from "@assets/Splash_1762350455042.png";
+import aboutImage from "@assets/Introduce_1762357190906.png";
 
 export default function About() {
   return (
