@@ -18,7 +18,7 @@ export default function About() {
             />
           </div>
 
-          <div className="space-y-6 text-foreground leading-relaxed">
+          <div className="text-foreground leading-relaxed">
             <p>고요갤러리는 동시대 미술의 사유와 감각을 탐색하는 전시 플랫폼입니다.</p>
             <p>신진부터 중견에 이르는 작가들과 협업해 명확한 큐레이션을 제안합니다.</p>
             <p>회화, 조각, 사진, 미디어 등 다양한 매체를 아우르며 실험적 태도를 지향합니다.</p>
