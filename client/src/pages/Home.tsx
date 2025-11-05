@@ -20,8 +20,8 @@ export default function Home() {
       
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="flex justify-center">
-            <div className="max-w-md w-full">
+          <div className="flex justify-center items-center">
+            <div className="w-full max-w-sm sm:max-w-md">
               {exhibitions.map((exhibition) => (
                 <Link key={exhibition.id} href={`/exhibitions/detail/${exhibition.id}`}>
                   <div className="group cursor-pointer" data-testid={`card-exhibition-${exhibition.title}`}>
