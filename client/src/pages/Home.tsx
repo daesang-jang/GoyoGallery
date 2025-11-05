@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "wouter";
+import img1 from '@assets/generated_images/Abstract_geometric_exhibition_artwork_c83490f6.png';
 
 export default function Home() {
   const exhibitions = [
@@ -10,7 +11,7 @@ export default function Home() {
       titleEn: "Between Silence and Matter",
       artists: "Glenn Ligon, Jack Whitten, Jeff Elrod, 이건용, 이우환",
       date: "2024.11.01 - 2024.12.15",
-      image: "http://313artproject.com/wp-content/uploads/2021/10/1-7.jpg",
+      image: img1,
     },
   ];
 
