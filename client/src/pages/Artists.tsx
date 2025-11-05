@@ -12,6 +12,41 @@ export default function Artists() {
       medium: "회화", 
       image: "http://313artproject.com/wp-content/uploads/2022/03/Ha-Jungwoo-Untitled-800x1024.png"
     },
+    { 
+      id: "2",
+      name: "Upcoming", 
+      nameEn: "",
+      medium: "", 
+      image: null
+    },
+    { 
+      id: "3",
+      name: "Upcoming", 
+      nameEn: "",
+      medium: "", 
+      image: null
+    },
+    { 
+      id: "4",
+      name: "Upcoming", 
+      nameEn: "",
+      medium: "", 
+      image: null
+    },
+    { 
+      id: "5",
+      name: "Upcoming", 
+      nameEn: "",
+      medium: "", 
+      image: null
+    },
+    { 
+      id: "6",
+      name: "Upcoming", 
+      nameEn: "",
+      medium: "", 
+      image: null
+    },
   ];
 
   return (
@@ -28,34 +63,38 @@ export default function Artists() {
             </p>
           </div>
 
-          <div className="flex justify-center">
-            <div className="w-full max-w-sm">
-              {artists.map((artist) => (
-                <Link key={artist.name} href={`/artists/${artist.id}`}>
+          <div className="grid grid-cols-3 gap-6 md:gap-8">
+            {artists.map((artist) => (
+              artist.image ? (
+                <Link key={artist.id} href={`/artists/${artist.id}`}>
                   <div
                     className="group cursor-pointer"
                     data-testid={`card-artist-${artist.name}`}
                   >
                     <div className="aspect-square bg-muted rounded-md mb-3 overflow-hidden hover-elevate active-elevate-2">
-                      {artist.image ? (
-                        <img
-                          src={artist.image}
-                          alt={artist.name}
-                          className="w-full h-full object-cover"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-muted to-accent/20">
-                          <User className="h-12 w-12 text-muted-foreground" />
-                        </div>
-                      )}
+                      <img
+                        src={artist.image}
+                        alt={artist.name}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <h3 className="font-medium text-foreground mb-1">{artist.name}</h3>
-                    <p className="text-sm text-muted-foreground mb-1">{artist.nameEn}</p>
-                    <p className="text-sm text-muted-foreground">{artist.medium}</p>
+                    {artist.nameEn && <p className="text-sm text-muted-foreground mb-1">{artist.nameEn}</p>}
+                    {artist.medium && <p className="text-sm text-muted-foreground">{artist.medium}</p>}
                   </div>
                 </Link>
-              ))}
-            </div>
+              ) : (
+                <div
+                  key={artist.id}
+                  className="group"
+                  data-testid={`card-artist-${artist.name}`}
+                >
+                  <div className="aspect-square bg-muted/30 rounded-md mb-3">
+                  </div>
+                  <h3 className="font-medium text-muted-foreground mb-1">{artist.name}</h3>
+                </div>
+              )
+            ))}
           </div>
         </div>
       </main>
