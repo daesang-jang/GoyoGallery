@@ -67,7 +67,7 @@ export default function Academy() {
             <div className="text-center p-6">
               <Users className="h-12 w-12 mx-auto mb-4 text-foreground" />
               <h3 className="text-lg font-semibold mb-2 text-foreground">소규모 클래스</h3>
-              <p className="text-sm text-muted-foreground">최대 15명의 밀도 있는 수업</p>
+              <p className="text-sm text-muted-foreground">최대 8명의 밀도 있는 수업</p>
             </div>
             <div className="text-center p-6">
               <Calendar className="h-12 w-12 mx-auto mb-4 text-foreground" />
@@ -79,10 +79,10 @@ export default function Academy() {
           <div className="bg-card rounded-lg p-8 md:p-12 border border-card-border text-center">
             <h2 className="text-2xl font-semibold mb-4 text-card-foreground">2026년 새롭게 시작됩니다 </h2>
             <p className="text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
-              rhdyro
+              고요 아카데미 에서 예술과 조금 더 친해져 보세요
             </p>
             <button className="px-8 py-3 bg-primary text-primary-foreground rounded-md hover-elevate active-elevate-2 font-medium" data-testid="button-apply-academy">
-              수강 신청하기
+              Upcoming 
             </button>
           </div>
         </div>
