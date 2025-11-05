@@ -86,7 +86,27 @@ export default function Home() {
           </div>
         </section>
 
-       
+        <section className="bg-card py-24">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-semibold mb-6 text-card-foreground">뉴스레터 구독</h2>
+              <p className="text-muted-foreground mb-8 leading-relaxed">
+                GOYO Gallery의 최신 전시 소식과 아티스트 정보를 가장 먼저 받아보세요
+              </p>
+              <div className="flex gap-3 max-w-md mx-auto">
+                <input
+                  type="email"
+                  placeholder="이메일 주소를 입력하세요"
+                  className="flex-1 px-4 py-3 bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
+                  data-testid="input-home-newsletter"
+                />
+                <button className="px-6 py-3 bg-primary text-primary-foreground rounded-md hover-elevate active-elevate-2 font-medium" data-testid="button-home-newsletter-submit">
+                  구독하기
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
