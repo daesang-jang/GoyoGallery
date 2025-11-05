@@ -15,6 +15,7 @@ import ArtistDetail from "@/pages/ArtistDetail";
 import PublicArt from "@/pages/PublicArt";
 import PublicArtDetail from "@/pages/PublicArtDetail";
 import Consulting from "@/pages/Consulting";
+import ConsultingDetail from "@/pages/ConsultingDetail";
 import Academy from "@/pages/Academy";
 import About from "@/pages/About";
 import Visit from "@/pages/Visit";
@@ -33,6 +34,7 @@ function Router() {
       <Route path="/public-art" component={PublicArt} />
       <Route path="/public-art/:id" component={PublicArtDetail} />
       <Route path="/consulting" component={Consulting} />
+      <Route path="/consulting/:id" component={ConsultingDetail} />
       <Route path="/academy" component={Academy} />
       <Route path="/about" component={About} />
       <Route path="/visit" component={Visit} />

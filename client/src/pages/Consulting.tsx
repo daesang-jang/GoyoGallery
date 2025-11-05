@@ -1,28 +1,40 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Palette, Building2, Users, Sparkles } from "lucide-react";
+import { Link } from "wouter";
 
 export default function Consulting() {
-  const services = [
+  const projects = [
     {
-      icon: Palette,
-      title: "아트 컨설팅",
-      description: "개인 및 기업 고객을 위한 맞춤형 미술품 컬렉션 구축",
+      id: "1",
+      title: "The Great Mobiles",
+      artist: "Xavier Veilhan",
+      location: "Incheon International Airport Terminal 2",
+      year: "2018",
+      image: "http://313artproject.com/wp-content/uploads/2018/06/%EC%88%98%EC%A0%95%EB%90%A8_XavierVeilhan-GreatMobileEAST-%EC%B4%AC%EC%98%81%EC%A1%B0%EC%98%81%ED%95%98-%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5-%EC%9E%90%EB%B9%84%EC%97%90%EB%B2%A0%EC%9D%B4%EC%95%99313%EC%95%84%ED%8A%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-5.jpg",
     },
     {
-      icon: Building2,
-      title: "공간 큐레이팅",
-      description: "오피스, 호텔, 레지던스 등 공간에 어울리는 작품 선정",
+      id: "2",
+      title: "Upcoming",
+      artist: "",
+      location: "",
+      year: "",
+      image: null,
     },
     {
-      icon: Users,
-      title: "컬렉터 지원",
-      description: "작품 구매부터 보관, 관리까지 전문적인 컬렉터 서비스",
+      id: "3",
+      title: "Upcoming",
+      artist: "",
+      location: "",
+      year: "",
+      image: null,
     },
     {
-      icon: Sparkles,
-      title: "기획 전시",
-      description: "기업 및 기관을 위한 맞춤형 전시 기획 및 운영",
+      id: "4",
+      title: "Upcoming",
+      artist: "",
+      location: "",
+      year: "",
+      image: null,
     },
   ];
 
@@ -32,68 +44,41 @@ export default function Consulting() {
       
       <main className="pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="mb-16 text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-foreground" data-testid="text-page-title">아트 컨설팅</h1>
-            <div className="h-px w-24 bg-border mb-8 mx-auto" />
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              GOYO Gallery의 전문 큐레이터가 귀하의 공간과 목적에 맞는 최적의 미술 작품을 제안합니다
+          <div className="mb-12">
+            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">아트컨설팅</h1>
+            <div className="h-px w-24 bg-border mb-6" />
+            <p className="text-muted-foreground max-w-2xl leading-relaxed">
+              GOYO Gallery는 공공 예술 프로젝트를 통해 더 많은 사람들이 예술을 접할 수 있는 기회를 만들어갑니다
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-            {services.map((service) => (
-              <div
-                key={service.title}
-                className="p-8 bg-card border border-card-border rounded-lg hover-elevate"
-                data-testid={`card-service-${service.title}`}
-              >
-                <service.icon className="h-10 w-10 text-foreground mb-4" />
-                <h3 className="text-xl font-semibold mb-3 text-card-foreground">{service.title}</h3>
-                <p className="text-muted-foreground leading-relaxed">{service.description}</p>
-              </div>
+          <div className="grid grid-cols-2 gap-6 md:gap-8">
+            {projects.map((project) => (
+              project.image ? (
+                <Link key={project.id} href={`/consulting/${project.id}`}>
+                  <div className="group cursor-pointer" data-testid={`card-project-${project.title}`}>
+                    <div className="aspect-[16/10] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                    <h3 className="text-lg font-semibold mb-2 text-foreground">{project.title}</h3>
+                    {project.artist && <p className="text-sm text-muted-foreground mb-1">{project.artist}</p>}
+                    {project.location && project.year && (
+                      <p className="text-sm text-muted-foreground">{project.location} · {project.year}</p>
+                    )}
+                  </div>
+                </Link>
+              ) : (
+                <div key={project.id} className="group" data-testid={`card-project-${project.title}`}>
+                  <div className="aspect-[16/10] bg-muted/30 rounded-md mb-4">
+                  </div>
+                  <h3 className="text-lg font-semibold mb-2 text-muted-foreground">{project.title}</h3>
+                </div>
+              )
             ))}
-          </div>
-
-          <div className="bg-card rounded-lg p-8 md:p-12 border border-card-border">
-            <div className="max-w-2xl mx-auto">
-              <h2 className="text-2xl font-semibold mb-6 text-card-foreground text-center">상담 신청</h2>
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium mb-2 text-card-foreground">이름</label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-3 bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-                    placeholder="이름을 입력하세요"
-                    data-testid="input-name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2 text-card-foreground">이메일</label>
-                  <input
-                    type="email"
-                    className="w-full px-4 py-3 bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-                    placeholder="email@example.com"
-                    data-testid="input-email"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2 text-card-foreground">상담 내용</label>
-                  <textarea
-                    rows={5}
-                    className="w-full px-4 py-3 bg-background border border-input rounded-md focus:outline-none focus:ring-2 focus:ring-ring resize-none"
-                    placeholder="상담받고 싶은 내용을 자유롭게 작성해주세요"
-                    data-testid="input-message"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3 bg-primary text-primary-foreground rounded-md hover-elevate active-elevate-2 font-medium"
-                  data-testid="button-submit-consultation"
-                >
-                  상담 신청하기
-                </button>
-              </form>
-            </div>
           </div>
         </div>
       </main>
