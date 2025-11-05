@@ -13,6 +13,7 @@ import ExhibitionDetail from "@/pages/ExhibitionDetail";
 import Artists from "@/pages/Artists";
 import ArtistDetail from "@/pages/ArtistDetail";
 import PublicArt from "@/pages/PublicArt";
+import PublicArtDetail from "@/pages/PublicArtDetail";
 import Consulting from "@/pages/Consulting";
 import Academy from "@/pages/Academy";
 import About from "@/pages/About";
@@ -30,6 +31,7 @@ function Router() {
       <Route path="/artists" component={Artists} />
       <Route path="/artists/:id" component={ArtistDetail} />
       <Route path="/public-art" component={PublicArt} />
+      <Route path="/public-art/:id" component={PublicArtDetail} />
       <Route path="/consulting" component={Consulting} />
       <Route path="/academy" component={Academy} />
       <Route path="/about" component={About} />

@@ -1,20 +1,40 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import img1 from '@assets/generated_images/Installation_art_exhibition_718ac98a.png';
+import { Link } from "wouter";
 
 export default function PublicArt() {
   const projects = [
     {
-      title: "도심 속 예술",
-      location: "서울시청 광장",
-      year: "2024",
-      description: "공공 공간에서 만나는 현대 미술 작품",
+      id: "1",
+      title: "The Great Mobiles",
+      artist: "Xavier Veilhan",
+      location: "Incheon International Airport Terminal 2",
+      year: "2018",
+      image: "http://313artproject.com/wp-content/uploads/2018/06/%EC%88%98%EC%A0%95%EB%90%A8_XavierVeilhan-GreatMobileEAST-%EC%B4%AC%EC%98%81%EC%A1%B0%EC%98%81%ED%95%98-%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5-%EC%9E%90%EB%B9%84%EC%97%90%EB%B2%A0%EC%9D%B4%EC%95%99313%EC%95%84%ED%8A%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-5.jpg",
     },
     {
-      title: "커뮤니티 벽화",
-      location: "종로구 삼청동",
-      year: "2023",
-      description: "지역 주민과 함께 만든 협업 프로젝트",
+      id: "2",
+      title: "Upcoming",
+      artist: "",
+      location: "",
+      year: "",
+      image: null,
+    },
+    {
+      id: "3",
+      title: "Upcoming",
+      artist: "",
+      location: "",
+      year: "",
+      image: null,
+    },
+    {
+      id: "4",
+      title: "Upcoming",
+      artist: "",
+      location: "",
+      year: "",
+      image: null,
     },
   ];
 
@@ -32,31 +52,33 @@ export default function PublicArt() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+          <div className="grid grid-cols-2 gap-6 md:gap-8">
             {projects.map((project) => (
-              <div key={project.title} className="group" data-testid={`card-project-${project.title}`}>
-                <div className="aspect-video bg-muted rounded-md mb-4 overflow-hidden">
-                  <img
-                    src={img1}
-                    alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+              project.image ? (
+                <Link key={project.id} href={`/public-art/${project.id}`}>
+                  <div className="group cursor-pointer" data-testid={`card-project-${project.title}`}>
+                    <div className="aspect-[3/4] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </div>
+                    <h3 className="text-lg font-semibold mb-2 text-foreground">{project.title}</h3>
+                    {project.artist && <p className="text-sm text-muted-foreground mb-1">{project.artist}</p>}
+                    {project.location && project.year && (
+                      <p className="text-sm text-muted-foreground">{project.location} · {project.year}</p>
+                    )}
+                  </div>
+                </Link>
+              ) : (
+                <div key={project.id} className="group" data-testid={`card-project-${project.title}`}>
+                  <div className="aspect-[3/4] bg-muted/30 rounded-md mb-4">
+                  </div>
+                  <h3 className="text-lg font-semibold mb-2 text-muted-foreground">{project.title}</h3>
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-foreground">{project.title}</h3>
-                <p className="text-sm text-muted-foreground mb-1">{project.location} · {project.year}</p>
-                <p className="text-muted-foreground">{project.description}</p>
-              </div>
+              )
             ))}
-          </div>
-
-          <div className="bg-card rounded-lg p-8 md:p-12 border border-card-border">
-            <h2 className="text-2xl font-semibold mb-4 text-card-foreground">프로젝트 제안</h2>
-            <p className="text-muted-foreground mb-6 leading-relaxed">
-              공공 예술 프로젝트에 관심이 있으신가요? GOYO Gallery와 함께 지역 사회에 예술적 가치를 더해보세요
-            </p>
-            <button className="px-6 py-3 bg-primary text-primary-foreground rounded-md hover-elevate active-elevate-2 font-medium" data-testid="button-contact-project">
-              문의하기
-            </button>
           </div>
         </div>
       </main>
