@@ -2,32 +2,30 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ExhibitionCard from "@/components/ExhibitionCard";
 import { Link } from "wouter";
+import { getExhibitionsByStatus } from "@shared/exhibitions";
 
-import img1 from '@assets/generated_images/Monochrome_architectural_photography_e843186b.png';
-import img2 from '@assets/generated_images/Korean_ceramic_sculpture_b99d58e8.png';
-import img3 from '@assets/generated_images/Abstract_expressionist_painting_1825f2af.png';
+import img1 from '@assets/generated_images/Abstract_geometric_exhibition_artwork_c83490f6.png';
+import img2 from '@assets/generated_images/Monochrome_architectural_photography_e843186b.png';
+import img3 from '@assets/generated_images/Korean_ceramic_sculpture_b99d58e8.png';
+import img4 from '@assets/generated_images/Contemporary_Korean_landscape_657013ad.png';
+import img5 from '@assets/generated_images/Abstract_expressionist_painting_1825f2af.png';
+
+const imageMap: Record<string, string> = {
+  "Abstract_geometric_exhibition_artwork_c83490f6.png": img1,
+  "Contemporary_Korean_landscape_657013ad.png": img4,
+  "Monochrome_architectural_photography_e843186b.png": img2,
+  "Korean_ceramic_sculpture_b99d58e8.png": img3,
+  "Abstract_expressionist_painting_1825f2af.png": img5,
+};
 
 export default function PastExhibitions() {
-  const exhibitions = [
-    {
-      title: "Urban Perspectives",
-      artist: "김태영",
-      date: "2024.09.01 - 2024.10.15",
-      image: img1,
-    },
-    {
-      title: "Traditional Modern",
-      artist: "윤서희",
-      date: "2024.08.10 - 2024.09.30",
-      image: img2,
-    },
-    {
-      title: "Color Theory",
-      artist: "장민석",
-      date: "2024.07.15 - 2024.08.31",
-      image: img3,
-    },
-  ];
+  const exhibitions = getExhibitionsByStatus('past').map(ex => ({
+    id: ex.id,
+    title: ex.title,
+    artist: ex.artists,
+    date: ex.date,
+    image: imageMap[ex.image] || img1,
+  }));
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -62,7 +60,7 @@ export default function PastExhibitions() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
             {exhibitions.map((exhibition) => (
-              <ExhibitionCard key={exhibition.title} {...exhibition} />
+              <ExhibitionCard key={exhibition.id} {...exhibition} />
             ))}
           </div>
         </div>

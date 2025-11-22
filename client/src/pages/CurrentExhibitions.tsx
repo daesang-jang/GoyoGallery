@@ -2,60 +2,58 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ExhibitionCard from "@/components/ExhibitionCard";
 import { Link } from "wouter";
+import { getExhibitionsByStatus } from "@shared/exhibitions";
+
+import img1 from '@assets/generated_images/Abstract_geometric_exhibition_artwork_c83490f6.png';
+import img2 from '@assets/generated_images/Monochrome_architectural_photography_e843186b.png';
+import img3 from '@assets/generated_images/Korean_ceramic_sculpture_b99d58e8.png';
+import img4 from '@assets/generated_images/Contemporary_Korean_landscape_657013ad.png';
+import img5 from '@assets/generated_images/Abstract_expressionist_painting_1825f2af.png';
+
+const imageMap: Record<string, string> = {
+  "Abstract_geometric_exhibition_artwork_c83490f6.png": img1,
+  "Contemporary_Korean_landscape_657013ad.png": img4,
+  "Monochrome_architectural_photography_e843186b.png": img2,
+  "Korean_ceramic_sculpture_b99d58e8.png": img3,
+  "Abstract_expressionist_painting_1825f2af.png": img5,
+};
 
 export default function CurrentExhibitions() {
-  const exhibitions = [
-    {
-      id: "1",
-      title: "ON VIEW",
-      artist: "김산, 노현우, 이준영, 이영지, 장세일, 최우",
-      date: "2025.12.04 - 2026.01.07",
-      // 🔽 public/images 기준 경로 (파일 위치에 맞게 이름만 맞춰주면 됨)
-      image: "/images/Home/onveiw.png",
-    },
-  ];
+  const exhibitions = getExhibitionsByStatus('current').map(ex => ({
+    id: ex.id,
+    title: ex.title,
+    artist: ex.artists,
+    date: ex.date,
+    image: imageMap[ex.image] || img1,
+  }));
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
-
+      
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1
-              className="text-4xl md:text-4xl font-semibold mb-4 text-foreground"
-              data-testid="text-page-title"
-            >
-              EXHIBITION
-            </h1>
+            <h1 className="text-4xl md:text-4xl font-semibold mb-4 text-foreground" data-testid="text-page-title">Exhibition</h1>
             <div className="h-px w-44 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl">
-              {/* 필요하면 소개 문구 추가 */}
+            
             </p>
           </div>
 
           <div className="mb-8 flex gap-4 flex-wrap">
             <Link href="/exhibitions/current">
-              <button
-                className="px-4 py-2 text-sm font-medium bg-accent text-accent-foreground rounded-md"
-                data-testid="button-filter-current"
-              >
+              <button className="px-4 py-2 text-sm font-medium bg-accent text-accent-foreground rounded-md" data-testid="button-filter-current">
                 Current
               </button>
             </Link>
             <Link href="/exhibitions/upcoming">
-              <button
-                className="px-4 py-2 text-sm font-medium hover-elevate active-elevate-2 rounded-md"
-                data-testid="button-filter-upcoming"
-              >
+              <button className="px-4 py-2 text-sm font-medium hover-elevate active-elevate-2 rounded-md" data-testid="button-filter-upcoming">
                 Upcoming
               </button>
             </Link>
             <Link href="/exhibitions/past">
-              <button
-                className="px-4 py-2 text-sm font-medium hover-elevate active-elevate-2 rounded-md"
-                data-testid="button-filter-past"
-              >
+              <button className="px-4 py-2 text-sm font-medium hover-elevate active-elevate-2 rounded-md" data-testid="button-filter-past">
                 Past
               </button>
             </Link>
@@ -64,7 +62,7 @@ export default function CurrentExhibitions() {
           <div className="flex justify-center">
             <div className="w-full max-w-md">
               {exhibitions.map((exhibition) => (
-                <ExhibitionCard key={exhibition.title} {...exhibition} />
+                <ExhibitionCard key={exhibition.id} {...exhibition} />
               ))}
             </div>
           </div>
