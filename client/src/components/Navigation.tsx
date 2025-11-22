@@ -8,14 +8,14 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "홈", path: "/home" },
-    { label: "전시", path: "/exhibitions/current" },
-    { label: "작가", path: "/artists" },
-    { label: "퍼블릭아트", path: "/public-art" },
-    { label: "컨설팅", path: "/consulting" },
-    { label: "아카데미", path: "/academy" },
-    { label: "소개", path: "/about" },
-    { label: "방문안내", path: "/visit" },
+    { label: "HOME", path: "/home" },
+    { label: "EXHIBITION", path: "/exhibitions/current" },
+    { label: "ARTISTS", path: "/artists" },
+    { label: "PUBLIC ART", path: "/public-art" },
+    { label: "ART CONSULTING", path: "/consulting" },
+    { label: "ACADEMY", path: "/academy" },
+    { label: "ABOUT", path: "/about" },
+    { label: "VISIT", path: "/visit" },
   ];
 
   return (

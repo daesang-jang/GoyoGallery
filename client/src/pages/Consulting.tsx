@@ -45,7 +45,7 @@ export default function Consulting() {
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">아트컨설팅</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">ART CONSULTING</h1>
             <div className="h-px w-24 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl leading-relaxed">
               GOYO Gallery는 공공 예술 프로젝트를 통해 더 많은 사람들이 예술을 접할 수 있는 기회를 만들어갑니다

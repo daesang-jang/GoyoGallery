@@ -7,10 +7,10 @@ export default function Artists() {
   const artists = [
     { 
       id: "1",
-      name: "하정우", 
-      nameEn: "Ha Jung-woo",
+      name: "고요", 
+      nameEn: "Go yo",
       medium: "회화", 
-      image: "http://313artproject.com/wp-content/uploads/2022/03/Ha-Jungwoo-Untitled-800x1024.png"
+      image: "/images/Artist/Upcoming/uc01.png"
     },
     { 
       id: "2",
@@ -56,10 +56,9 @@ export default function Artists() {
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">작가</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">ARTISTS</h1>
             <div className="h-px w-24 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl">
-              GOYO Gallery와 함께하는 작가들을 만나보세요
             </p>
           </div>
 

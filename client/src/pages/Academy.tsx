@@ -31,7 +31,7 @@ export default function Academy() {
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">아카데미</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">ACADEMY</h1>
             <div className="h-px w-24 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl leading-relaxed">
               미술에 대한 이해를 깊이 있게 확장하고 싶으신가요? GOYO Academy에서 전문가와 함께 배워보세요

@@ -11,7 +11,7 @@ export default function Visit() {
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">방문안내</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">VISIT</h1>
             <div className="h-px w-24 bg-border mb-6" />
           </div>
 
@@ -34,8 +34,8 @@ export default function Visit() {
                     <MapPin className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">주소</h3>
-                      <p className="text-muted-foreground">서울시 종로구 삼청로 123</p>
-                      <p className="text-sm text-muted-foreground mt-1">GOYO Building 2F</p>
+                      <p className="text-muted-foreground">서울시 서초구 매헌로16 </p>
+                      <p className="text-sm text-muted-foreground mt-1">라시타 델라 모다 4F 4151호 </p>
                     </div>
                   </div>
 
@@ -52,7 +52,7 @@ export default function Visit() {
                     <Mail className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">이메일</h3>
-                      <p className="text-muted-foreground">info@goyogallery.kr</p>
+                      <p className="text-muted-foreground">gallery@artgoyo.com</p>
                     </div>
                   </div>
                 </div>
@@ -65,8 +65,7 @@ export default function Visit() {
                     <Train className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">지하철</h3>
-                      <p className="text-muted-foreground mb-1">3호선 안국역 1번 출구 도보 5분</p>
-                      <p className="text-muted-foreground">5호선 광화문역 2번 출구 도보 12분</p>
+                      <p className="text-muted-foreground mb-1">3호선 양재시민의숲 5번 출구 도보 15분</p>
                     </div>
                   </div>
 
@@ -74,8 +73,8 @@ export default function Visit() {
                     <Car className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">주차</h3>
-                      <p className="text-muted-foreground mb-1">건물 지하 주차장 이용 가능</p>
-                      <p className="text-sm text-muted-foreground">2시간 무료 주차 (갤러리 방문 확인 시)</p>
+                      <p className="text-muted-foreground mb-1">건물 지상 주차장 이용 가능</p>
+                      <p className="text-sm text-muted-foreground">3시간 무료 주차</p>
                     </div>
                   </div>
                 </div>

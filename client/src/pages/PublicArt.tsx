@@ -3,41 +3,6 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 
 export default function PublicArt() {
-  const projects = [
-    {
-      id: "1",
-      title: "The Great Mobiles",
-      artist: "Xavier Veilhan",
-      location: "Incheon International Airport Terminal 2",
-      year: "2018",
-      image: "http://313artproject.com/wp-content/uploads/2018/06/%EC%88%98%EC%A0%95%EB%90%A8_XavierVeilhan-GreatMobileEAST-%EC%B4%AC%EC%98%81%EC%A1%B0%EC%98%81%ED%95%98-%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5-%EC%9E%90%EB%B9%84%EC%97%90%EB%B2%A0%EC%9D%B4%EC%95%99313%EC%95%84%ED%8A%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-5.jpg",
-    },
-    {
-      id: "2",
-      title: "Upcoming",
-      artist: "",
-      location: "",
-      year: "",
-      image: null,
-    },
-    {
-      id: "3",
-      title: "Upcoming",
-      artist: "",
-      location: "",
-      year: "",
-      image: null,
-    },
-    {
-      id: "4",
-      title: "Upcoming",
-      artist: "",
-      location: "",
-      year: "",
-      image: null,
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
@@ -45,49 +10,104 @@ export default function PublicArt() {
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">퍼블릭아트</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">PUBLIC ART</h1>
             <div className="h-px w-24 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl leading-relaxed">
-              GOYO Gallery는 공공 예술 프로젝트를 통해 더 많은 사람들이 예술을 접할 수 있는 기회를 만들어갑니다
             </p>
           </div>
 
-          <div className="mb-12 space-y-4 text-foreground leading-relaxed">
-            <p>퍼블릭아트는 불특정 다수가 이용하는 공공 공간을 무대로, 공공성·장소성·접근성을 핵심 원칙으로 실현되는 예술입니다. 도심의 역사·환경·이용 행태를 고려하여 설계되며, 단순한 미적 장식이 아니라 공간의 의미와 사용 경험을 개선하는 것을 목표로 합니다.</p>
-            
-            <p>퍼블릭아트의 핵심 원칙은 공공의 삶을 위한 접근성과 포용성에서 출발합니다. 누구나 이용할 수 있도록 물리적·인지적 장벽을 낮추고, 다양한 배경의 시민을 전제로 설계합니다. 작품은 장소의 역사, 지형, 동선, 소리와 빛 등 맥락에 반응하며, 이동 가능한 오브젝트가 아니라 공간의 의미와 사용 경험을 증폭하는 환경적 장치가 됩니다. 설계 단계에서는 구조 안전·내구·방재·유지관리와 운영비, 에너지 소비와 재료 순환 가능성을 함께 고려하여 지속가능성을 확보합니다. 기획부터 설치·운영까지 주민·전문가·행정·민간이 협업하며, 공모·선정·계약·제작·검수 전 과정을 투명하게 기록합니다. 저작권·안전·초상권·데이터 등 윤리 이슈는 사전에 규정하여 분쟁을 예방하며, 완공 이후에도 관리 체계와 평가 지표를 통해 작품과 장소의 관계를 지속적으로 갱신합니다.</p>
+          <div className="mb-24 space-y-8 text-foreground leading-relaxed">
+            <p className="text-gray-500 font-bold">
+               | We create opportunities for more people to experience art through public art projects.
+            </p>
+             <div className="space-y-4 text-gray-500">
+            <p>
+              PUBLIC ART is an open form of art shared by everyone, seamlessly woven into the fabric of cities and everyday life.<br />
+              Through sculptures, installations, media art, and community-based projects, public art brings new meaning to public spaces.<br />
+              It enriches the daily lives of citizens.
+            </p>
+
+            <p>
+              We view public art as a cultural value that connects space, people, and local communities.<br />
+              We focus on creating urban environments where art naturally becomes part of everyday experience.<br />
+              For over two decades, we have collaborated with major developers and construction companies on public art projects.<br />
+              We professionally manage the entire process from concept and planning to design, fabrication, and installation.
+            </p>
+
+            <p>
+              As a cultural art company committed to the sustainable value of art,<br />
+              we continue to expand public art projects that bring new sensibility and meaning to a wide range of public spaces.
+            </p>
+             </div>
           </div>
+
+
+          
+          <div className="mb-24 space-y-8 text-foreground leading-relaxed">
+             <p className="text-gray-600 font-bold">
+               |    공공 예술 프로젝트를 통해 더 많은 사람들이 예술을 접할 수 있는 기회를 만들어갑니다.
+               </p>
+                  <div className="space-y-4 text-gray-500">
+            <p>
+              PUBLIC ART(공공예술)는 모두가 함께 누리는 열린 예술로, 도시와 사람의 일상 속에 자연스럽게 스며드는 문화 경험입니다.<br />
+              퍼블릭아트는 조형물, 설치미술, 미디어아트, 커뮤니티 프로젝트 등 다양한 형식을 통해 공공 공간에 새로운 의미를 부여하며,<br />
+              시민의 삶을 더욱 풍요롭게 만드는 예술적 실천입니다.
+            </p>
+
+            <p>
+              우리는 퍼블릭아트를 공간·사람·지역을 연결하는 문화적 가치로 바라보고,<br />
+              예술이 일상 속에 자연스럽게 스며드는 도시 환경을 만들어가는 데 집중하고 있습니다.<br />
+              지난 20여 년간 주요 건설사 및 시행사와 협력하며 공공미술 프로젝트를 수행해왔으며,<br />
+              기획부터 디자인·제작·설치까지 전 과정을 전문적으로 운영해 왔습니다.
+            </p>
+
+            <p>
+              예술의 지속 가능한 가치를 실천하는 문화예술 기업으로서,<br />
+              다양한 공공 공간에 새로운 감성과 의미를 더하는 퍼블릭아트 프로젝트를 지속적으로 확장하고 있습니다.
+            </p>
+                 </div>
+          </div>
+          
+          <div className="h-px w-full bg-border mb-24" />
+
+       
+          <p className="text-gray-500 mt-6 mb-4 text-xl font-bold">
+            | Sculpture
+          </p>          
+          <img src="/images/PublicArt/PA01.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6 rounded-md mb-12" />
+          <img src="/images/PublicArt/pa02.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6 rounded-md mb-12" />
+          <img src="/images/PublicArt/pa03.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa04.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa05.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa06.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa07.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa08.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa09.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa10.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa11.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <div className="h-px w-full bg-border mb-24" />
+
+          <p className="text-gray-500 mt-6 mb-4 text-xl font-bold">
+            | Media Art
+          </p>       
+          <img src="/images/PublicArt/pa12.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-0" />
+          <img src="/images/PublicArt/pa13.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-0" />
+          <img src="/images/PublicArt/pa14.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-0" />
+          <img src="/images/PublicArt/pa15.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-0" />
+          <img src="/images/PublicArt/pa16.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <div className="h-px w-full bg-border mb-24" />
+          
+          <p className="text-gray-500 mt-6 mb-4 text-xl font-bold">
+            | paiting / hanging
+          </p>
+          <img src="/images/PublicArt/pa17.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa18.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+          <img src="/images/PublicArt/pa19.png" alt="Public Art" className="w-full md:w-3/4 lg:w-5/6  rounded-md mb-12" />
+
 
           <div className="h-px w-full bg-border mb-12" />
 
-          <div className="grid grid-cols-2 gap-6 md:gap-8">
-            {projects.map((project) => (
-              project.image ? (
-                <Link key={project.id} href={`/public-art/${project.id}`}>
-                  <div className="group cursor-pointer" data-testid={`card-project-${project.title}`}>
-                    <div className="aspect-[16/10] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
-                      <img
-                        src={project.image}
-                        alt={project.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                    <h3 className="text-lg font-semibold mb-2 text-foreground">{project.title}</h3>
-                    {project.artist && <p className="text-sm text-muted-foreground mb-1">{project.artist}</p>}
-                    {project.location && project.year && (
-                      <p className="text-sm text-muted-foreground">{project.location} · {project.year}</p>
-                    )}
-                  </div>
-                </Link>
-              ) : (
-                <div key={project.id} className="group" data-testid={`card-project-${project.title}`}>
-                  <div className="aspect-[16/10] bg-muted/30 rounded-md mb-4">
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2 text-muted-foreground">{project.title}</h3>
-                </div>
-              )
-            ))}
-          </div>
+       
         </div>
       </main>
 
