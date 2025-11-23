@@ -1,10 +1,10 @@
 import { useParams } from "wouter";
-import ArtistDetail_goyo from "./artists/ArtistDetail_goyo";
-import ArtistDetail_upcoming02 from "./artists/ArtistDetail_upcoming02";
-import ArtistDetail_upcoming03 from "./artists/ArtistDetail_upcoming03";
-import ArtistDetail_upcoming04 from "./artists/ArtistDetail_upcoming04";
-import ArtistDetail_upcoming05 from "./artists/ArtistDetail_upcoming05";
-import ArtistDetail_upcoming06 from "./artists/ArtistDetail_upcoming06";
+import ArtistDetail_kimsan from "./artists/ArtistDetail_kimsan";
+import ArtistDetail_rohhyunwoo from "./artists/ArtistDetail_rohhyunwoo";
+import ArtistDetail_leejungyoung from "./artists/ArtistDetail_leejungyoung";
+import ArtistDetail_leeyoungji from "./artists/ArtistDetail_leeyoungji";
+import ArtistDetail_jangseil from "./artists/ArtistDetail_jangseil";
+import ArtistDetail_choiwoo from "./artists/ArtistDetail_choiwoo";
 import NotFound from "./not-found";
 
 export default function ArtistDetail() {
@@ -12,12 +12,12 @@ export default function ArtistDetail() {
   const id = params.id;
 
   const detailComponents: Record<string, () => JSX.Element> = {
-    "goyo": ArtistDetail_goyo,
-    "upcoming02": ArtistDetail_upcoming02,
-    "upcoming03": ArtistDetail_upcoming03,
-    "upcoming04": ArtistDetail_upcoming04,
-    "upcoming05": ArtistDetail_upcoming05,
-    "upcoming06": ArtistDetail_upcoming06,
+    "kimsan": ArtistDetail_kimsan,
+    "rohhyunwoo": ArtistDetail_rohhyunwoo,
+    "leejungyoung":  ArtistDetail_leejungyoung,
+    "leeyoungji": ArtistDetail_leeyoungji,
+    "jangseil": ArtistDetail_jangseil,
+    "choiwoo": ArtistDetail_choiwoo,
   };
 
   const DetailComponent = id ? detailComponents[id] : null;

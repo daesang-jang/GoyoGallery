@@ -8,46 +8,46 @@ export interface ArtistMeta {
 
 export const artists: ArtistMeta[] = [
   {
-    id: "goyo",
-    name: "고요",
-    nameEn: "Go yo",
-    medium: "회화",
-    thumbnail: "/images/Artist/Upcoming/uc01.png"
+    id: "kimsan",
+    name: "김 산",
+    nameEn: "Kim san",
+    medium: "회화 | Painting",
+    thumbnail: "/images/Exhibition/1/01.png"
   },
   {
-    id: "upcoming02",
-    name: "Upcoming Artist 02",
-    nameEn: "",
-    medium: "",
-    thumbnail: ""
+    id: "rohhyunwoo",
+    name: "노현우",
+    nameEn: "Roh Hyun-woo",
+    medium: "회화 | Painting",
+    thumbnail: "/images/Exhibition/1/02.png"
   },
   {
-    id: "upcoming03",
-    name: "Upcoming Artist 03",
-    nameEn: "",
-    medium: "",
-    thumbnail: ""
+    id: "leejungyoung",
+    name: "이정용",
+    nameEn: "Lee Jung-young",
+    medium: "회화 | Painting",
+    thumbnail: "/images/Exhibition/1/03.png"
   },
   {
-    id: "upcoming04",
-    name: "Upcoming Artist 04",
-    nameEn: "",
-    medium: "",
-    thumbnail: ""
+    id: "leeyoungji",
+    name: "이영지",
+    nameEn: "Lee Young-ji",
+    medium: "회화 | Painting",
+    thumbnail: "/images/Exhibition/1/04.png"
   },
   {
-    id: "upcoming05",
-    name: "Upcoming Artist 05",
-    nameEn: "",
-    medium: "",
-    thumbnail: ""
+    id: "jangseil",
+    name: "장세일",
+    nameEn: "Jang Se-il",
+    medium: "조각 | Sculpture",
+    thumbnail: "/images/Exhibition/1/05.png"
   },
   {
-    id: "upcoming06",
-    name: "Upcoming Artist 06",
-    nameEn: "",
-    medium: "",
-    thumbnail: ""
+    id: "choiwoo",
+    name: "최우",
+    nameEn: "Choi Woo",
+    medium: "회화 | Painting",
+    thumbnail: "/images/Exhibition/1/06.png"
   },
 ];
 

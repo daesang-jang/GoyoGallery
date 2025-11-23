@@ -18,40 +18,43 @@ export default function Visit() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-semibold mb-6 text-foreground">관람 정보</h2>
+                <h2 className="text-2xl font-semibold mb-6 text-foreground">Visitor Information
+</h2>
                 <div className="space-y-4">
                   <div className="flex gap-4">
                     <Clock className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-2 text-foreground">운영 시간</h3>
-                      <p className="text-muted-foreground">화요일 - 일요일: 10:00 - 19:00</p>
-                      <p className="text-sm text-muted-foreground mt-1">월요일 및 공휴일 휴관</p>
-                      <p className="text-sm text-muted-foreground">마지막 입장: 18:30</p>
+                      <h3 className="font-semibold mb-2 text-foreground">Opening Hours
+</h3>
+                      <p className="text-muted-foreground">Tuesday – Sunday: 10:00 – 19:00</p>
+                      <p className="text-sm text-muted-foreground mt-1">Closed on Mondays and public holidays</p>
+                      <p className="text-sm text-muted-foreground">Last admission: 18:30</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
                     <MapPin className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-2 text-foreground">주소</h3>
-                      <p className="text-muted-foreground">서울시 서초구 매헌로16 </p>
-                      <p className="text-sm text-muted-foreground mt-1">라시타 델라 모다 4F 4151호 </p>
+                      <h3 className="font-semibold mb-2 text-foreground">Address</h3>
+                      <p className="text-muted-foreground">16 Maeheon-ro, Seocho-gu, Seoul
+ </p>
+                      <p className="text-sm text-muted-foreground mt-1">La Città Della Moda, 4F, 4151 </p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
                     <Phone className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-2 text-foreground">연락처</h3>
-                      <p className="text-muted-foreground">전화: 02-1234-5678</p>
-                      <p className="text-muted-foreground">팩스: 02-1234-5679</p>
+                      <h3 className="font-semibold mb-2 text-foreground">Contact</h3>
+                      <p className="text-muted-foreground">Phone: 02-1234-5678</p>
+                      <p className="text-muted-foreground">Fax: 02-1234-5679</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
                     <Mail className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-2 text-foreground">이메일</h3>
+                      <h3 className="font-semibold mb-2 text-foreground">E-mail</h3>
                       <p className="text-muted-foreground">gallery@artgoyo.com</p>
                     </div>
                   </div>
@@ -59,22 +62,24 @@ export default function Visit() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-semibold mb-6 text-foreground">오시는 길</h2>
+                <h2 className="text-2xl font-semibold mb-6 text-foreground">Directions</h2>
                 <div className="space-y-4">
                   <div className="flex gap-4">
                     <Train className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-2 text-foreground">지하철</h3>
-                      <p className="text-muted-foreground mb-1">3호선 양재시민의숲 5번 출구 도보 15분</p>
+                      <h3 className="font-semibold mb-2 text-foreground">Subway</h3>
+                      <p className="text-muted-foreground mb-1">Line 3 – Yangjae Citizen’s Forest Station, Exit 5 <br />
+                      15-minute walk</p>
                     </div>
                   </div>
 
                   <div className="flex gap-4">
                     <Car className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="font-semibold mb-2 text-foreground">주차</h3>
-                      <p className="text-muted-foreground mb-1">건물 지상 주차장 이용 가능</p>
-                      <p className="text-sm text-muted-foreground">3시간 무료 주차</p>
+                      <h3 className="font-semibold mb-2 text-foreground">Parking</h3>
+                      <p className="text-muted-foreground mb-1">Ground-level parking available
+</p>
+                      <p className="text-sm text-muted-foreground">3 hours free parking</p>
                     </div>
                   </div>
                 </div>
@@ -83,10 +88,11 @@ export default function Visit() {
 
             <div className="flex items-center justify-center">
               <div className="aspect-square w-full max-w-md bg-white rounded-lg flex items-center justify-center p-8">
-                <img
-                  src={splashImage}
-                  alt="GOYO GALLERY"
-                  className="w-auto h-auto max-w-full max-h-full"
+                  <img
+                    src="/images/Goyo/1.png"
+                    alt="GOYO GALLERY"
+                    className="w-full max-w-2xl"
+                    data-testid="img-about"
                 />
               </div>
             </div>

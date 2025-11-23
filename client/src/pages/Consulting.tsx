@@ -3,83 +3,80 @@ import Footer from "@/components/Footer";
 import { Link } from "wouter";
 
 export default function Consulting() {
-  const projects = [
-    {
-      id: "1",
-      title: "The Great Mobiles",
-      artist: "Xavier Veilhan",
-      location: "Incheon International Airport Terminal 2",
-      year: "2018",
-      image: "http://313artproject.com/wp-content/uploads/2018/06/%EC%88%98%EC%A0%95%EB%90%A8_XavierVeilhan-GreatMobileEAST-%EC%B4%AC%EC%98%81%EC%A1%B0%EC%98%81%ED%95%98-%EC%82%AC%EC%A7%84%EC%A0%9C%EA%B3%B5-%EC%9E%90%EB%B9%84%EC%97%90%EB%B2%A0%EC%9D%B4%EC%95%99313%EC%95%84%ED%8A%B8%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-5.jpg",
-    },
-    {
-      id: "2",
-      title: "Upcoming",
-      artist: "",
-      location: "",
-      year: "",
-      image: null,
-    },
-    {
-      id: "3",
-      title: "Upcoming",
-      artist: "",
-      location: "",
-      year: "",
-      image: null,
-    },
-    {
-      id: "4",
-      title: "Upcoming",
-      artist: "",
-      location: "",
-      year: "",
-      image: null,
-    },
-  ];
-
-  return (
+return (
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
-      
+
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-semibold mb-4 text-foreground" data-testid="text-page-title">ART CONSULTING</h1>
             <div className="h-px w-24 bg-border mb-6" />
             <p className="text-muted-foreground max-w-2xl leading-relaxed">
-              GOYO Gallery는 공공 예술 프로젝트를 통해 더 많은 사람들이 예술을 접할 수 있는 기회를 만들어갑니다
             </p>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 md:gap-8">
-            {projects.map((project) => (
-              project.image ? (
-                <Link key={project.id} href={`/consulting/${project.id}`}>
-                  <div className="group cursor-pointer" data-testid={`card-project-${project.title}`}>
-                    <div className="aspect-[16/10] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
-                      <img
-                        src={project.image}
-                        alt={project.title}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                    <h3 className="text-lg font-semibold mb-2 text-foreground">{project.title}</h3>
-                    {project.artist && <p className="text-sm text-muted-foreground mb-1">{project.artist}</p>}
-                    {project.location && project.year && (
-                      <p className="text-sm text-muted-foreground">{project.location} · {project.year}</p>
-                    )}
-                  </div>
-                </Link>
-              ) : (
-                <div key={project.id} className="group" data-testid={`card-project-${project.title}`}>
-                  <div className="aspect-[16/10] bg-muted/30 rounded-md mb-4">
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2 text-muted-foreground">{project.title}</h3>
-                </div>
-              )
-            ))}
+          <div className="mb-24 space-y-8 text-foreground leading-relaxed">
+            <p className="text-gray-500 font-bold">
+               | Through art consulting, we create art experiences tailored to each space.
+            </p>
+             <div className="space-y-4 text-gray-500">
+            <p>
+              Our art consulting service is built on over 20 years of expertise in public art and architecture-based projects, providing integrated solutions that deliver art strategies optimized for each space’s purpose and context.
+            </p>
+
+            <p>
+               Drawing on practical data and project know-how accumulated through collaborations with a wide range of buildings, developers, and public institutions, we manage the entire process—from initial planning and artwork selection to artist coordination, production oversight, installation, and final inspection.
+
+            </p>
+
+            <p>
+              With an extensive portfolio in the public art sector, we ensure precise integration between artworks and architectural or interior elements, offering site-responsive solutions that consider budget, schedule, and safety requirements.
+            </p>
+              <p>
+              We analyze the functional needs and brand identity of each space to establish sustainable art planning that maintains long-term value.
+                 </p>
+              <p>
+              Through this approach, we support clear artistic decision-making and stable project execution across both public and private sectors.
+
+            </p>
+             </div>
           </div>
+
+
+
+          <div className="mb-24 space-y-8 text-foreground leading-relaxed">
+             <p className="text-gray-600 font-bold">
+               |    아트컨설팅을 통해 공간의 목적과 환경에 맞는 예술 경험을 만들어 갑니다
+               </p>
+                  <div className="space-y-4 text-gray-500">
+            <p>
+              저희 아트컨설팅은 20여 년간 공공미술 및 건축 기반 프로젝트에서 축적한 전문성을 바탕으로, 공간의 목적과 환경에 최적화된 예술 전략을 제안하는 통합 컨설팅 서비스입니다.
+
+            </p>
+
+            <p>
+              다양한 건축물, 개발사, 공공기관과의 협업 경험을 통해 구축된 실무 데이터와 프로젝트 노하우를 기반으로, 기획 단계부터 작품 선정, 작가 매칭, 제작 관리, 설치·검수까지 전 과정을 체계적으로 수행합니다.
+
+            </p>
+
+            <p>
+              특히 공공미술 분야에서의 다수의 실적을 바탕으로, 건축·인테리어 요소와 작품이 기능적으로 연결되도록 정밀하게 조율하며, 예산·공정·안전 기준을 고려한 현장 친화적인 솔루션을 제공합니다.
+            </p>
+                    <p>
+                    저희는 공간이 요구하는 기능성과 브랜드 정체성을 세밀하게 분석하여, 장기적으로 가치가 유지되는 지속 가능한 아트플래닝을 목표로 합니다.
+                       </p>
+                    <p>
+                      이를 통해 공공 및 민간 프로젝트 전반에서 명확한 의사결정과 안정적인 프로젝트 수행을 지원합니다.
+
+                    </p>
+                 </div>
+          </div>
+
+          <div className="h-px w-full bg-border mb-24" />
+
+{/* 여기부터는 이미지 삽입  */}
+          
         </div>
       </main>
 
