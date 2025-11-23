@@ -22,16 +22,16 @@ return (
             </p>
              <div className="space-y-4 text-gray-500">
             <p>
-              Our art consulting service is built on over 20 years of expertise in public art and architecture-based projects, providing integrated solutions that deliver art strategies optimized for each space’s purpose and context.
+              Our art consulting service is built on over 20 years of expertise in public art and architecture-based projects, <br /> providing integrated solutions that deliver art strategies optimized for each space’s purpose and context.
             </p>
 
             <p>
-               Drawing on practical data and project know-how accumulated through collaborations with a wide range of buildings, developers, and public institutions, we manage the entire process—from initial planning and artwork selection to artist coordination, production oversight, installation, and final inspection.
+               Drawing on practical data and project know-how accumulated through collaborations with a wide range of buildings, developers, and public institutions, <br />we manage the entire process—from initial planning and artwork selection to artist coordination, production oversight, installation, and final inspection.
 
             </p>
 
             <p>
-              With an extensive portfolio in the public art sector, we ensure precise integration between artworks and architectural or interior elements, offering site-responsive solutions that consider budget, schedule, and safety requirements.
+              With an extensive portfolio in the public art sector, we ensure precise integration between artworks and architectural or interior elements, <br />offering site-responsive solutions that consider budget, schedule, and safety requirements.
             </p>
               <p>
               We analyze the functional needs and brand identity of each space to establish sustainable art planning that maintains long-term value.
@@ -51,25 +51,23 @@ return (
                </p>
                   <div className="space-y-4 text-gray-500">
             <p>
-              저희 아트컨설팅은 20여 년간 공공미술 및 건축 기반 프로젝트에서 축적한 전문성을 바탕으로, 공간의 목적과 환경에 최적화된 예술 전략을 제안하는 통합 컨설팅 서비스입니다.
+              저희 아트컨설팅은 20여 년간 공공미술 및 건축 기반 프로젝트에서 축적한 전문성을 바탕으로, <br />공간의 목적과 환경에 최적화된 예술 전략을 제안하는 통합 컨설팅 서비스입니다.
 
             </p>
 
             <p>
-              다양한 건축물, 개발사, 공공기관과의 협업 경험을 통해 구축된 실무 데이터와 프로젝트 노하우를 기반으로, 기획 단계부터 작품 선정, 작가 매칭, 제작 관리, 설치·검수까지 전 과정을 체계적으로 수행합니다.
+              다양한 건축물, 개발사, 공공기관과의 협업 경험을 통해 구축된 실무 데이터와 프로젝트 노하우를 기반으로, <br />기획 단계부터 작품 선정, 작가 매칭, 제작 관리, 설치·검수까지 전 과정을 체계적으로 수행합니다.
 
             </p>
 
             <p>
-              특히 공공미술 분야에서의 다수의 실적을 바탕으로, 건축·인테리어 요소와 작품이 기능적으로 연결되도록 정밀하게 조율하며, 예산·공정·안전 기준을 고려한 현장 친화적인 솔루션을 제공합니다.
+              특히 공공미술 분야에서의 다수의 실적을 바탕으로, 건축·인테리어 요소와 작품이 기능적으로 연결되도록 정밀하게 조율하며, <br />예산·공정·안전 기준을 고려한 현장 친화적인 솔루션을 제공합니다.
             </p>
                     <p>
-                    저희는 공간이 요구하는 기능성과 브랜드 정체성을 세밀하게 분석하여, 장기적으로 가치가 유지되는 지속 가능한 아트플래닝을 목표로 합니다.
-                       </p>
-                    <p>
+                    저희는 공간이 요구하는 기능성과 브랜드 정체성을 세밀하게 분석하여, 장기적으로 가치가 유지되는 지속 가능한 아트플래닝을 목표로 합니다.<br />
                       이를 통해 공공 및 민간 프로젝트 전반에서 명확한 의사결정과 안정적인 프로젝트 수행을 지원합니다.
+                       </p>
 
-                    </p>
                  </div>
           </div>
 
