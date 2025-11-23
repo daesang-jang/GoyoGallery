@@ -4,19 +4,6 @@ import ExhibitionCard from "@/components/ExhibitionCard";
 import { Link } from "wouter";
 import { getExhibitionsByStatus } from "@shared/exhibitions";
 
-import img1 from '@assets/generated_images/Abstract_geometric_exhibition_artwork_c83490f6.png';
-import img2 from '@assets/generated_images/Monochrome_architectural_photography_e843186b.png';
-import img3 from '@assets/generated_images/Korean_ceramic_sculpture_b99d58e8.png';
-import img4 from '@assets/generated_images/Contemporary_Korean_landscape_657013ad.png';
-import img5 from '@assets/generated_images/Abstract_expressionist_painting_1825f2af.png';
-
-const imageMap: Record<string, string> = {
-  "Abstract_geometric_exhibition_artwork_c83490f6.png": img1,
-  "Contemporary_Korean_landscape_657013ad.png": img4,
-  "Monochrome_architectural_photography_e843186b.png": img2,
-  "Korean_ceramic_sculpture_b99d58e8.png": img3,
-  "Abstract_expressionist_painting_1825f2af.png": img5,
-};
 
 export default function UpcomingExhibitions() {
   const exhibitions = getExhibitionsByStatus('upcoming').map(ex => ({
@@ -24,7 +11,7 @@ export default function UpcomingExhibitions() {
     title: ex.title,
     artist: ex.artists,
     date: ex.date,
-    image: imageMap[ex.image] || img1,
+    image: ex.image
   }));
 
   return (
@@ -58,15 +45,26 @@ export default function UpcomingExhibitions() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-            {exhibitions.map((exhibition) => (
-              <ExhibitionCard key={exhibition.id} {...exhibition} />
-            ))}
+      {/* 전시 리스트 / 비어있을 때 문구 */}
+          <div className="mt-12">
+            {exhibitions.length === 0 ? (
+              <div className="flex justify-center items-center py-24">
+                <p className="text-center text-base md:text-lg lg:text-xl text-gray-400">
+                  Upcoming Exhibition
+                </p>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                {exhibitions.map((exhibition) => (
+                  <ExhibitionCard key={exhibition.id} {...exhibition} />
+                ))}
+              </div>
+            )}
           </div>
-        </div>
-      </main>
 
-      <Footer />
-    </div>
-  );
-}
+              </div>
+            </main>
+            <Footer />
+          </div>
+        );
+      }
