@@ -1,53 +1,10 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { User } from "lucide-react";
 import { Link } from "wouter";
+import { getAllArtists } from "@shared/artists";
 
 export default function Artists() {
-  const artists = [
-    { 
-      id: "1",
-      name: "고요", 
-      nameEn: "Go yo",
-      medium: "회화", 
-      image: "/images/Artist/Upcoming/uc01.png"
-    },
-    { 
-      id: "2",
-      name: "Upcoming", 
-      nameEn: "",
-      medium: "", 
-      image: null
-    },
-    { 
-      id: "3",
-      name: "Upcoming", 
-      nameEn: "",
-      medium: "", 
-      image: null
-    },
-    { 
-      id: "4",
-      name: "Upcoming", 
-      nameEn: "",
-      medium: "", 
-      image: null
-    },
-    { 
-      id: "5",
-      name: "Upcoming", 
-      nameEn: "",
-      medium: "", 
-      image: null
-    },
-    { 
-      id: "6",
-      name: "Upcoming", 
-      nameEn: "",
-      medium: "", 
-      image: null
-    },
-  ];
+  const artists = getAllArtists();
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
@@ -64,15 +21,15 @@ export default function Artists() {
 
           <div className="grid grid-cols-3 gap-6 md:gap-8">
             {artists.map((artist) => (
-              artist.image ? (
+              artist.thumbnail ? (
                 <Link key={artist.id} href={`/artists/${artist.id}`}>
                   <div
                     className="group cursor-pointer"
-                    data-testid={`card-artist-${artist.name}`}
+                    data-testid={`card-artist-${artist.id}`}
                   >
                     <div className="aspect-square bg-muted rounded-md mb-3 overflow-hidden hover-elevate active-elevate-2">
                       <img
-                        src={artist.image}
+                        src={artist.thumbnail}
                         alt={artist.name}
                         className="w-full h-full object-cover"
                       />
@@ -86,7 +43,7 @@ export default function Artists() {
                 <div
                   key={artist.id}
                   className="group"
-                  data-testid={`card-artist-${artist.name}`}
+                  data-testid={`card-artist-${artist.id}`}
                 >
                   <div className="aspect-square bg-muted/30 rounded-md mb-3">
                   </div>
