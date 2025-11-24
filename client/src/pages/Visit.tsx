@@ -26,7 +26,7 @@ export default function Visit() {
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">Opening Hours
 </h3>
-                      <p className="text-muted-foreground">Tuesday – Sunday: 10:00 – 19:00</p>
+                      <p className="text-muted-foreground">Tuesday – Sunday: 10:00 – 18:30</p>
                       <p className="text-sm text-muted-foreground mt-1">Closed on Mondays and public holidays</p>
                       <p className="text-sm text-muted-foreground">Last admission: 18:30</p>
                     </div>
@@ -46,8 +46,8 @@ export default function Visit() {
                     <Phone className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">Contact</h3>
-                      <p className="text-muted-foreground">Phone: 02-1234-5678</p>
-                      <p className="text-muted-foreground">Fax: 02-1234-5679</p>
+                      <p className="text-muted-foreground">Phone: 02-2155-0525</p>
+                      <p className="text-muted-foreground">Fax: 02-2155-0526</p>
                     </div>
                   </div>
 
