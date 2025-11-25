@@ -39,7 +39,7 @@ export default function Home() {
             <div className="w-full max-w-sm sm:max-w-md">
               <Link href={`/exhibitions/detail/${exhibition.id}`}>
                 <div className="group cursor-pointer" data-testid={`card-exhibition-${exhibition.title}`}>
-                  <div className="aspect-[3/4] bg-muted rounded-md mb-4 overflow-hidden hover-elevate active-elevate-2">
+                  <div className="bg-muted rounded-md mb-4 overflow-hidden">
                     <img
                       src={exhibition.image}
                       alt={exhibition.title}

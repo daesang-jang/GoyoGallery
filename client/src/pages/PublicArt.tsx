@@ -22,21 +22,15 @@ export default function PublicArt() {
             </p>
              <div className="space-y-4 text-gray-500">
             <p>
-              PUBLIC ART is an open form of art shared by everyone, seamlessly woven into the fabric of cities and everyday life.<br />
-              Through sculptures, installations, media art, and community-based projects, public art brings new meaning to public spaces.<br />
-              It enriches the daily lives of citizens.
+              PUBLIC ART is an open form of art shared by everyone, seamlessly woven into the fabric of cities and everyday life. Through sculptures, installations, media art, and community-based projects, public art brings new meaning to public spaces. It enriches the daily lives of citizens.
             </p>
 
             <p>
-              We view public art as a cultural value that connects space, people, and local communities.<br />
-              We focus on creating urban environments where art naturally becomes part of everyday experience.<br />
-              For over two decades, we have collaborated with major developers and construction companies on public art projects.<br />
-              We professionally manage the entire process from concept and planning to design, fabrication, and installation.
+              We view public art as a cultural value that connects spaces, people, and local communities, and we focus on creating urban environments where art naturally integrates into everyday life. For more than two decades, we have worked with major developers and constructors, professionally managing the full process of public art projects—from planning and design to fabrication and installation.
             </p>
 
             <p>
-              As a cultural art company committed to the sustainable value of art,<br />
-              we continue to expand public art projects that bring new sensibility and meaning to a wide range of public spaces.
+              As a cultural art company committed to the sustainable value of art, we continue to expand public art projects that bring new sensibility and meaning to a wide range of public spaces.
             </p>
              </div>
           </div>
@@ -49,21 +43,15 @@ export default function PublicArt() {
                </p>
                   <div className="space-y-4 text-gray-500">
             <p>
-              PUBLIC ART(공공예술)는 모두가 함께 누리는 열린 예술로, 도시와 사람의 일상 속에 자연스럽게 스며드는 문화 경험입니다.<br />
-              퍼블릭아트는 조형물, 설치미술, 미디어아트, 커뮤니티 프로젝트 등 다양한 형식을 통해 공공 공간에 새로운 의미를 부여하며,<br />
-              시민의 삶을 더욱 풍요롭게 만드는 예술적 실천입니다.
+              PUBLIC ART(공공예술)는 모두가 함께 누리는 열린 예술로, 도시와 사람의 일상 속에 자연스럽게 스며드는 문화 경험입니다. 퍼블릭아트는 조형물, 설치미술, 미디어아트, 커뮤니티 프로젝트 등 다양한 형식을 통해 공공 공간에 새로운 의미를 부여하며, 시민의 삶을 더욱 풍요롭게 만드는 예술적 실천입니다.
             </p>
 
             <p>
-              우리는 퍼블릭아트를 공간·사람·지역을 연결하는 문화적 가치로 바라보고,<br />
-              예술이 일상 속에 자연스럽게 스며드는 도시 환경을 만들어가는 데 집중하고 있습니다.<br />
-              지난 20여 년간 주요 건설사 및 시행사와 협력하며 공공미술 프로젝트를 수행해왔으며,<br />
-              기획부터 디자인·제작·설치까지 전 과정을 전문적으로 운영해 왔습니다.
+              우리는 퍼블릭아트를 공간·사람·지역을 연결하는 문화적 가치로 바라보며, 예술이 일상 속에 자연스럽게 스며드는 도시 환경을 만드는 데 집중하고 있습니다. 지난 20여 년간 주요 건설사와 시행사와 협력해 기획부터 디자인, 제작, 설치까지 공공미술 프로젝트의 전 과정을 전문적으로 수행해왔습니다.
             </p>
 
             <p>
-              예술의 지속 가능한 가치를 실천하는 문화예술 기업으로서,<br />
-              다양한 공공 공간에 새로운 감성과 의미를 더하는 퍼블릭아트 프로젝트를 지속적으로 확장하고 있습니다.
+              예술의 지속 가능한 가치를 실천하는 문화예술 기업으로서, 다양한 공공 공간에 새로운 감성과 의미를 더하는 퍼블릭아트 프로젝트를 지속적으로 확장하고 있습니다.
             </p>
                  </div>
           </div>
