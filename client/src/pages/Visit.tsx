@@ -26,9 +26,9 @@ export default function Visit() {
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">Opening Hours
 </h3>
-                      <p className="text-muted-foreground">Tuesday – Sunday: 10:00 – 18:30</p>
-                      <p className="text-sm text-muted-foreground mt-1">Closed on Mondays and public holidays</p>
-                      <p className="text-sm text-muted-foreground">Last admission: 18:30</p>
+                      <p className="text-muted-foreground">Tuesday – Sunday: 10:30 – 18:00</p>
+                      <p className="text-sm text-muted-foreground mt-1">Closed on Sunday and Monday</p>
+                      <p className="text-sm text-muted-foreground">Last admission: 17:30</p>
                     </div>
                   </div>
 
@@ -77,9 +77,10 @@ export default function Visit() {
                     <Car className="h-6 w-6 text-foreground flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold mb-2 text-foreground">Parking</h3>
-                      <p className="text-muted-foreground mb-1">Ground-level parking available
+                      <p className="text-muted-foreground mb-1">Ground-level parking available (Free parking for visitors)
 </p>
-                      <p className="text-sm text-muted-foreground">3 hours free parking</p>
+                      <p className="text-sm text-muted-foreground"> When navigating, search for “La Cittadella Morada Tower Parking.” <br />
+                      Please park on the 4th floor for the most convenient access to GOYO Gallery.</p>
                     </div>
                   </div>
                 </div>

@@ -15,12 +15,13 @@ export default function ExhibitionDetail1() {
               ON VIEW
             </h1>
             <h2 className="text-2xl md:text-3xl font-light mb-4 text-foreground/80">
-              Opening exhibition
+              First Exhibition
             </h2>
             
             <div className="space-y-2 mb-8">
               <p className="text-lg text-muted-foreground">
-                KIM SAN(김산), ROH HYUNWOO(노현우), LEE JUNGYONG(이정용), LEE YOUNGJI(이영지), JANG SEIL(장세일), CHOI WOO(최우)
+                KIM SAN, ROH HYUNWOO, LEE JUNGYONG, LEE YOUNGJI, JANG SEIL, CHOI WOO <br/>
+                김산, 노현우, 이정용, 이영지, 장세일, 최우
               </p>
               <p className="text-sm text-muted-foreground flex items-center gap-2">
                 <Calendar className="h-4 w-4" />
@@ -32,23 +33,16 @@ export default function ExhibitionDetail1() {
 
             <div className="prose prose-lg max-w-none mb-8">
               <p className="text-foreground leading-relaxed mb-6">
-                GoYo Gallery presents its inaugural exhibition 《ON VIEW》, featuring six contemporary artists: Kim San, Noh Hyunwoo, Lee Junyoung, Lee Youngji, Jang Seil, and Choi Woo. This exhibition introduces the gallery’s vision by bringing together diverse practices that explore nature, memory, emotion, ecological consciousness, and the structures of the inner self.
+                In the heart of the city, the opening walls of Goyo Gallery are lined with works by six artists who have steadfastly endured this moment in time: Kim San, Roh Hyunwoo, Lee Youngji, Lee Jungyong, Jang Seil, and Choi Woo. They belong to a generation that has resisted the pull of short-lived trends in an ever-changing art market, choosing instead to push their own artistic languages with unwavering conviction. They are already central figures within Korean contemporary art, and they stand poised to carry this field forward with even greater depth and clarity.
               </p>
               <p className="text-foreground leading-relaxed mb-6">
-                Kim San reflects on Jeju’s landscape and the symbolic figure of the white deer to examine the origins of existence and the temporality of nature.
-                Noh Hyunwoo reconstructs remembered landscapes through layers of light and atmosphere, presenting accumulated internal terrains.
-                Lee Youngji builds an emotional and restorative space through recurring motifs of trees, birds, and imagined gardens.
-                Lee Junyoung merges urban sensibilities with organic forms, revealing a contemporary emotional rhythm within the pictorial field.
-                Jang Seil critically engages with the intersection of animals, cities, and environments, addressing the fragile boundary between civilization and ecology.
-                Choi Woo visualizes the air, silence, and subtle tension surrounding the human figure, capturing pre-verbal emotional structures.
+              "ON VIEW" is a simple yet powerful present-tense expression commonly used by museums to signify “now on display.” Goyo Gallery has chosen this phrase as the title of its inaugural exhibition. Rather than adding grand concepts or elaborate descriptions, the gallery aims to reveal a straightforward truth: the works hung on these walls are the very language of this space. From the moment the doors open, this title becomes the first sentence that asks—and answers—what Goyo Gallery chooses to present “here and now.”
               </p>
               <p className="text-foreground leading-relaxed mb-6">
-                《ON VIEW》 does not aim to converge into a single message.
-                Instead, it presents a parallel landscape where six distinct artistic worlds coexist—sometimes colliding, sometimes connecting, and ultimately expanding into new forms of perception. The exhibition positions GoYo Gallery as a platform committed to showcasing the layered sensibilities and ongoing experimentation that define contemporary art today.
+                True to its title, the six artists—each working across different media and forms—capture time, memory, daily life, and emotion through their own distinct approaches, creating images that resonate quietly yet linger long. When their works stand together in a single space, individual practices weave into a larger landscape, inviting viewers to walk among them and encounter the voices that speak most clearly to their own sensibilities.
               </p>
               <p className="text-foreground leading-relaxed mb-6">
-                As the goyo gallery’s opening statement, 《ON VIEW》 offers a clear proposition:
-                to place the visual languages of this moment—as they are, now, on view—before the audience.
+                With this opening exhibition, Goyo Gallery hopes to offer artists the courage to continue moving forward; to collectors, a rare moment to observe the present and future of Korean contemporary art at a glance; and to visitors, a gentle resonance where art naturally enters everyday life. As the first scene to be remembered for years to come, we hope "ON VIEW" becomes the starting point for many scenes that will unfold within this space.
               </p>
             </div>
 
@@ -56,23 +50,16 @@ export default function ExhibitionDetail1() {
 
             <div className="prose prose-lg max-w-none mb-12">
               <p className="text-muted-foreground leading-relaxed mb-6">
-                GoYo Gallery는 개관전 **《ON VIEW》**를 통해 김산, 노현우, 이준영, 이영지, 장세일, 최우 여섯 명의 작가를 소개합니다. 이 전시는 동시대 회화가 다루는 자연성, 기억, 감정, 생명성, 그리고 내면의 구조를 하나의 공간에서 집약적으로 보여주는 출발점입니다.
+                도시의 한가운데, 처음 문을 여는 고요갤러리의 벽에는 지금 이 시간을 묵묵히 버텨온 여섯 명의 작가가 서 있습니다. 김산, 노현우, 이영지, 이정용, 장세일, 최우. 이들은 빠르게 변하는 미술시장에서 일시적인 유행이 아니라 자신의 언어를 끝까지 밀어붙이며 작업을 이어온 세대이자, 이미 한국 동시대 미술의 중요한 축을 형성하고 있으며 앞으로도 이 장을 더욱 단단하게 이끌어갈 작가들입니다
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                김산은 제주 본향의 풍경과 ‘백록’의 상징성을 통해 존재의 근원과 자연의 시간성을 탐구합니다.
-                노현우는 기억 속 풍경을 빛과 공기의 층위로 재구성하며 내면 풍경의 축적을 그립니다.
-                이영지는 나무·새·정원의 모티브로 일상의 감정과 위로의 공간을 구축합니다.
-                이준영은 화면 속에서 도시적 감각과 유기적 흐름을 조형화해 현대적 질감과 정서를 교차시킵니다.
-                장세일은 동물·환경·도시를 결합시키며 문명과 생태의 경계를 비판적 시각으로 다룹니다.
-                최우는 인물 주변의 공기와 침묵을 회화화하여 언어 이전의 감정 구조를 드러냅니다.
+              "ON VIEW"는 미술관에서 ‘지금 전시 중’이라는 뜻으로 쓰이는, 가장 단순하지만 강한 현재형의 표현입니다. 세계 여러 미술관이 전시 섹션의 이름으로 사용하는 이 말을, 고요갤러리는 첫 페이지를 여는 전시 제목으로 가져왔습니다. 거창한 수식이나 개념을 덧붙이기보다, 지금 이 벽에 걸려 있는 작업들이 곧 이 공간의 언어라는 사실을 그대로 드러내기 위함입니다. 문이 열리는 순간부터, 이 이름은 고요갤러리가 “지금, 여기에서 무엇을 보여줄 것인가”를 묻고 또 대답하는 첫 문장이 됩니다.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                《ON VIEW》는 특정한 하나의 메시지로 수렴되지 않습니다.
-                여섯 작가가 구축한 서로 다른 세계들이 병렬적으로 드러나며, 충돌과 연결, 확장이라는 감각적 경험을 제공합니다. 이는 GoYo Gallery가 앞으로 지향하는 방향, 즉 “동시대 감각의 다층적 제시와 지속적 실험의 플랫폼”이라는 정체성을 명확히 보여줍니다.
+                그 제목처럼, 서로 다른 매체와 형식을 다루는 여섯 작가는 각자의 방식으로 시간과 기억, 일상과 감정을 포착하며 조용하지만 오래 남는 이미지들을 만들어 왔습니다. 이들이 한 공간에 나란히 서는 순간, 개인의 작업은 하나의 풍경이 되고, 관람자는 그 사이를 걸으며 자신에게 가장 또렷이 다가오는 목소리를 발견하게 됩니다. 
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                본 개관전은 고요갤러리가 관람객에게 던지는 첫 번째 제안입니다.
-                지금 이 순간, 이 시점에 존재하는 시각 예술의 다양한 결들을 그대로 ‘ON VIEW’ 합니다..
+                고요갤러리는 이 개관전을 통해 작가에게는 계속해서 앞으로 나아갈 용기를, 컬렉터에게는 한국 동시대 미술의 현재와 미래를 한눈에 조망할 수 있는 발견의 순간을, 관람객에게는 예술이 삶에 스며드는 조용한 울림을 건네고자 합니다. 오래도록 기억될 첫 장면으로서의 "ON VIEW"가, 앞으로 이 공간에서 이어질 많은 장면들의 출발선이 되기를 바랍니다.
               </p>
             </div>
           </div>
