@@ -10,7 +10,7 @@ export default function ArtistDetail_kimsan() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-foreground" data-testid="text-artist-name">
-              김산 | KIM San
+              김산 KIM San
             </h1>
             <h3 className="text-l md:text-xl font-light mb-2 text-foreground/80">
               B.1989 Based in Seoul, KR
@@ -19,11 +19,8 @@ export default function ArtistDetail_kimsan() {
             </div>
             <div className="mb-20">
               <img src="/images/Artist/kimsan/01_ks.jpg" alt="김산" className="w-full md:w-3/4 lg:w-2/4 mx-auto rounded-md mb-2" />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_빛의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 116.8x91.0
-                (50F) </em>
+              <p className="text-xs text-muted-foreground text-center">
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲(2025)&gt; Mixed media on Canvas 116.8x91.0cm 
               </p>
             </div>
 
@@ -106,11 +103,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_빛의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 116.8x91.0
-                (50F) </em>
+              <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲(2025)&gt; Mixed media on Canvas 116.8x91.0cm 
               </p>
             </div>
             <div>
@@ -119,12 +113,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_
-                반딧불이의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 116.8x91.0
-                (50F) </em>
+                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲, 2025&gt; Mixed media on Canvas 72.7×60.6cm
               </p>
             </div>
             <div>
@@ -133,12 +123,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_
-                반딧불이의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 72.7x60.6
-                (20F)  </em>
+                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲, 2025&gt; Mixed media on Canvas 72.7×60.6cm
               </p>
             </div>
             <div>
@@ -147,12 +133,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_
-                반딧불이의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 72.7x60.6
-                (20F) </em>
+                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+              Kim San &lt;본향(本鄕)_ 반딧불이의 숲, 2025&gt; Mixed media on Canvas 72.7×60.6cm
               </p>
             </div>
             <div>
@@ -161,11 +143,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_빛의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 60.6x60.6
-                (20S) </em>
+                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+                Kim San &lt;본향(本鄕)_ 빛의 숲, 2025&gt; Mixed media on Canvas 60.6×60.6cm
               </p>
             </div>
             <div>
@@ -174,12 +153,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_
-                반딧불이의 숲, 2025 <br />
-                <em>Mixed media
-                on Canvas | 60.6x60.6
-                (20S)  </em>
+                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲, 2025&gt; Mixed media on Canvas 60.6×60.6cm
               </p>
             </div>
             <div>
@@ -188,12 +163,8 @@ export default function ArtistDetail_kimsan() {
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
-              <p className="text-sm text-muted-foreground text-center">
-                Kim San | 본향(本鄕)_
-                녹담(綠潭), 2025 <br />
-                <em>Mixed media
-                on Canvas | 53.0x45.0
-                  (10F) </em>
+                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
+                Kim San &lt;본향(本鄕)_ 녹담(綠潭), 2025&gt; Mixed media on Canvas 53.0×45.0cm
               </p>
             </div>
             <div className="h-px w-full mb-16" />
@@ -211,7 +182,7 @@ export default function ArtistDetail_kimsan() {
             <div className="mb-18">
               <div className="flex flex-col leading-none">
                 <span className="text-2xl font-bold text-foreground mb-3">
-                  김산 | KIM San
+                  김산 KIM San
                 </span>
                 <span className="text-m text-muted-foreground">
                   B.1989 Based in Seoul, KR
@@ -223,191 +194,207 @@ export default function ArtistDetail_kimsan() {
             {/* 학력 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mt-14">학력</h3>
-              <ul className="list-none space-y-1">
-                <li>2019&nbsp;&nbsp;제주대학교 일반대학원 미술학과 서양화전공 석사</li>
-                <li>2015&nbsp;&nbsp;제주대학교 예술디자인대학 미술학부 서양화전공</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2019 제주대학교 일반대학원 미술학과 서양화전공 석사<br />
+                2015 제주대학교 예술디자인대학 미술학부 서양화전공
+              </p>
             </section>
 
             {/* 수상 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">수상</h3>
-              <ul className="list-none space-y-1">
-                <li>2024&nbsp;&nbsp;JDC-제주문화예술재단 청년작가 선정 (JDC/제주문화예술재단, 제주)</li>
-                <li>2024&nbsp;&nbsp;제2회 제주청년예술인상 수상 (한국예총제주특별자치도연합회, 제주)</li>
-                <li>2023&nbsp;&nbsp;제49회 제주특별자치도 미술대전 대상 (한국미술협회제주특별자치도지회, 제주)</li>
-                <li>2022&nbsp;&nbsp;제7회 서리풀 Art for Art 대상전 입선 (서초미술협회, 서울)</li>
-                <li>2018&nbsp;&nbsp;제25회 제주우수청년작가상 (제주문화예술진흥원, 제주)</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2024  JDC-제주문화예술재단 청년작가 선정 (JDC/제주문화예술재단, 제주)<br />
+                2024  제2회 제주청년예술인상 수상 (한국예총제주특별자치도연합회, 제주)<br />
+                2023  제49회 제주특별자치도 미술대전 대상 (한국미술협회제주특별자치도지회, 제주)<br />
+                2022  제7회 서리풀 Art for Art 대상전 입선 (서초미술협회, 서울)<br />
+                2018  제25회 제주우수청년작가상 (제주문화예술진흥원, 제주)
+              </p>
             </section>
 
             {/* 작품소장 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">작품소장</h3>
-              <ul className="list-none space-y-1">
-                <li>국립현대미술관 정부미술은행, 제주특별자치도, 제주현대미술관, 기당미술관, 제주경찰청, 서귀포시청,하나은행 서울본점, 제주 4·3 평화공원, 제주드림타워복합리조트, 한라동물의료센터, 델문도뮤지엄 외 개인 소장</li>  
-                </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                국립현대미술관 정부미술은행, 제주특별자치도, 제주현대미술관, 기당미술관, 제주경찰청, 서귀포시청, 하나은행 서울본점, 제주 4·3 평화공원,<br />
+                제주드림타워복합리조트, 한라동물의료센터, 델문도뮤지엄 외 개인 소장
+              </p>
           
             </section>
 
             {/* 개인전 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">개인전</h3>
-              <ul className="list-none space-y-1">
-                <li>2025&nbsp;&nbsp;제14회 개인전 ‘다시 피어나는 숲’ (아산병원갤러리, 서울)</li>
-                <li>2025&nbsp;&nbsp;제13회 초대전 ‘마음의 풍경’ (아트스페이스 H, 서울)</li>
-                <li>2025&nbsp;&nbsp;제12회 초대전 ‘Dear My Deer’ (로터스갤러리, 부산)</li>
-                <li>2024&nbsp;&nbsp;제11회 초대전 ‘Querencia : 마음의 안식처’ (갤러리41, 서울)</li>
-                <li>2024&nbsp;&nbsp;제10회 초대전 ‘염원(念願)’ (인사가나아트센터 B1, 서울)</li>
-                <li>2023&nbsp;&nbsp;제9회 개인전 ‘기억된 풍경, 기억될 풍경’ (국제평화센터 기획전시실, 제주)</li>
-                <li>2022&nbsp;&nbsp;제8회 초대전 ‘본향(本鄕): 마음이 머무는 자리’ (갤러리 소공헌, 서울)</li>
-                <li>2020&nbsp;&nbsp;제7회 초대전 ‘PICTURESQUE’ (델문도뮤지엄, 제주)</li>
-                <li>2019&nbsp;&nbsp;제6회 초대전 ‘無爲自然(무위자연), 스스로 그러하다’ (갤러리 다온, 서울)</li>
-                <li>2019&nbsp;&nbsp;제5회 초대전 ‘탐라風’ (문예회관 제1전시실, 제주)</li>
-                <li>2019&nbsp;&nbsp;제4회 초대전 ‘본향(本鄕)’ (갤러리 모어, 서울)</li>
-                <li>2018&nbsp;&nbsp;제3회 개인전 ‘아래로부터의 풍경’ (켄싱턴 제주호텔 갤러리, 제주)</li>
-                <li>2017&nbsp;&nbsp;제2회 개인전 ‘침묵의 응시(凝視) - 바람의 영혼’ (문예회관 제2전시실 / 이중섭미술관 창작스튜디오, 제주)</li>
-                <li>2010&nbsp;&nbsp;제1회 개인전 ‘어머니의 바다’ (이중섭미술관 창작스튜디오, 제주)</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2025 제14회 개인전 ‘다시 피어나는 숲’ (아산병원갤러리, 서울)<br />
+                2025 제13회 초대전 ‘마음의 풍경’ (아트스페이스 H, 서울)<br />
+                2025 제12회 초대전 ‘Dear My Deer’ (로터스갤러리, 부산)<br />
+                2024 제11회 초대전 ‘Querencia : 마음의 안식처’ (갤러리41, 서울)<br />
+                2024 제10회 초대전 ‘염원(念願)’ (인사가나아트센터 B1, 서울)<br />
+                2023 제9회 개인전 ‘기억된 풍경, 기억될 풍경’ (국제평화센터 기획전시실, 제주)<br />
+                2022 제8회 초대전 ‘본향(本鄕): 마음이 머무는 자리’ (갤러리 소공헌, 서울)<br />
+                2020 제7회 초대전 ‘PICTURESQUE’ (델문도뮤지엄, 제주)<br />
+                2019 제6회 초대전 ‘無爲自然(무위자연), 스스로 그러하다’ (갤러리 다온, 서울)<br />
+                2019 제5회 초대전 ‘탐라風’ (문예회관 제1전시실, 제주)<br />
+                2019 제4회 초대전 ‘본향(本鄕)’ (갤러리 모어, 서울)<br />
+                2018 제3회 개인전 ‘아래로부터의 풍경’ (켄싱턴 제주호텔 갤러리, 제주)<br />
+                2017 제2회 개인전 ‘침묵의 응시(凝視) - 바람의 영혼’ (문예회관 제2전시실 / 이중섭미술관 창작스튜디오, 제주)<br />
+                2010 제1회 개인전 ‘어머니의 바다’ (이중섭미술관 창작스튜디오, 제주)
+              </p>
             </section>
 
             {/* 단체전 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">단체전</h3>
-              <ul className="list-none space-y-1">
-                <li>2025&nbsp;&nbsp;제주도전 50년 : 반세기의 도전 (제주도립미술관, 제주)</li>
-                <li>2025&nbsp;&nbsp;차세대 작가 프로모션 ‘FOREFESTA’ (자하미술관, 서울)</li>
-                <li>2025&nbsp;&nbsp;‘마음이 피어나는 자리’ (아트문갤러리, 서울)</li>
-                <li>2025&nbsp;&nbsp;‘김산, 남재현 2인전’ (디바인갤러리, 서울)</li>
-                <li>2025&nbsp;&nbsp;‘행복한 그림’展 (맥화랑, 부산)</li>
-                <li>2025&nbsp;&nbsp;‘은유적 형상, 그 이면을 바라보다’ (비디갤러리, 서울)</li>
-                <li>2025&nbsp;&nbsp;Fly High (포브갤러리, 서울)</li>
-                <li>2025&nbsp;&nbsp;봄, 소품 (갤러리위, 용인수지)</li>
-                <li>2024&nbsp;&nbsp;뮤즈세움 연말기획 ‘세움전’ (뮤즈세움 갤러리, 울산)</li>
-                <li>2024&nbsp;&nbsp;Goodbye 2024 (포브갤러리, 서울)</li>
-                <li>2024&nbsp;&nbsp;천경자 탄생 100주년 ‘천재 화가, 천경자를 기리고 그리다.’ (고흥아트센터, 전남)</li>
-                <li>2024&nbsp;&nbsp;Whistling Wish (맨션나인, 서울)</li>
-                <li>2024&nbsp;&nbsp;Filling : 공간과 감정을 가득 채우다 (포브갤러리, 서울)</li>
-                <li>2024&nbsp;&nbsp;Kingdom of Animals (경인미술관, 서울)</li>
-                <li>2024&nbsp;&nbsp;‘DREAMSCAPE’ (갤러리 엘르, 서울)</li>
-                <li>2024&nbsp;&nbsp;‘Carpe Diem’ (청담보자르갤러리, 서울)</li>
-                <li>2024&nbsp;&nbsp;내 안의 자연 (이중섭미술관 기획전시실, 제주)</li>
-                <li>2023&nbsp;&nbsp;낭만시대 (컨벤시아갤러리, 인천)</li>
-                <li>2023&nbsp;&nbsp;뮤즈세움 연말기획 ‘세움전’ (뮤즈세움 갤러리, 울산)</li>
-                <li>2023&nbsp;&nbsp;교환전 (A.P.Y, 서울)</li>
-                <li>2023&nbsp;&nbsp;THE COLLECTION In Ulsan (현대백화점 울산점, 울산)</li>
-                <li>2023&nbsp;&nbsp;제주 숲, 곶자왈 이야기 (기당미술관, 제주)</li>
-                <li>2022&nbsp;&nbsp;언:리얼 제주(UN:REAL JEJU) (인사가나아트센터 B1, 서울)</li>
-                <li>2022&nbsp;&nbsp;인류세 시대, 평화의 이름으로 (제주국제평화센터 기획전시실, 제주)</li>
-                <li>2022&nbsp;&nbsp;YOUTHFUL22 (갤러리 초이, 서울)</li>
-                <li>2022&nbsp;&nbsp;EMPIRICAL LANDSCAPE (제주 드림타워 갤러리라운지, 제주)</li>
-                <li>2022&nbsp;&nbsp;4.3 미술제 ‘봉인된 풍경’ (예술공간 이아, 제주)</li>
-                <li>2021&nbsp;&nbsp;기꺼이 가까이 (제주현대미술관, 제주)</li>
-                <li>2021&nbsp;&nbsp;젊은 모색 (국립현대미술관, 과천)</li>
-                <li>2021&nbsp;&nbsp;시대의 자화상 (델문도 뮤지엄, 제주)</li>
-                <li>2021&nbsp;&nbsp;다시 돌아, 그린 봄 (제주국제평화센터 기획전시실, 제주)</li>
-                <li>2021&nbsp;&nbsp;4.3 미술제 ‘어떤 풍경’ (예술공간 이아, 제주)</li>
-                <li>2021&nbsp;&nbsp;‘나를 찾아줘-하지마,하지마,하지마’ (새탕라움, 제주)</li>
-                <li>2020&nbsp;&nbsp;‘제주동인(齊州同人)’ (제주도립미술관, 제주)</li>
-                <li>2020&nbsp;&nbsp;‘아트페스타 in 제주’ (산지천갤러리, 제주)</li>
-                <li>2020&nbsp;&nbsp;4.3미술제 ‘래일(來日)’ (4.3평화공원 기획전시실, 제주)</li>
-                <li>2019&nbsp;&nbsp;‘아름다운 여행’展 (슈페리어 갤러리, 서울)</li>
-                <li>2019&nbsp;&nbsp;‘할로영산(Halo Youngsan)’ (예술공간 이아, 제주)</li>
-                <li>2019&nbsp;&nbsp;‘카르페디엠, 오늘을 즐겨라’ (기당미술관, 제주)</li>
-                <li>2019&nbsp;&nbsp;제주청년작가 25년 아카이브 ‘舊本新參’ (제주문예회관, 제주)</li>
-                <li>2019&nbsp;&nbsp;기해년 신년기획전 ‘도새기 해가 떴습니다’ (이중섭미술관 기획전시실, 제주)</li>
-                <li>2018&nbsp;&nbsp;쪼끌락미술시장 서귀포사랑 (기당미술관, 제주)</li>
-                <li>2018&nbsp;&nbsp;회화의 귀환, 재현과 추상사이 (예술공간 이아, 제주)</li>
-                <li>2018&nbsp;&nbsp;제주기행 ‘길에서 만나다’ (예술의전당 전시실, 제주)</li>
-                <li>2018&nbsp;&nbsp;4.3 70주년 동아시아 평화인권展 ‘침묵에서 외침으로’ (4.3 평화공원 기획전시실, 제주)</li>
-                <li>2018&nbsp;&nbsp;‘YOUNG PIONEER NAVIGATE’ (예술공간 이아, 제주)</li>
-                <li>2018&nbsp;&nbsp;‘또 하나의 가족, 개와 게’ (이중섭미술관 기획전시실, 제주)</li>
-                <li>2017&nbsp;&nbsp;‘그대 있어 행복한 세상’ (기당미술관, 제주)</li>
-                <li>2017&nbsp;&nbsp;‘無爲自然(무위자연), 스스로 그러하다.’ (예술의전당 전시실, 제주)</li>
-                <li>2017&nbsp;&nbsp;바람 부는 날, 그때 제주 (4.3 평화공원 기획전시실, 제주)</li>
-                <li>2016&nbsp;&nbsp;바람 잔날, 그때 제주 (4.3 평화공원 기획전시실, 제주)</li>
-                <li>2016&nbsp;&nbsp;평화, 슬픔에 핀 소망의 꽃 (4.3 평화공원 기획전시실, 제주)</li>
-                <li>2016&nbsp;&nbsp;‘청춘의 계단’ 이중섭미술관 청년작가 초대전 (이중섭미술관 기획전시실, 제주)</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2025 제주도전 50년 : 반세기의 도전 (제주도립미술관, 제주)<br />
+                2025 차세대 작가 프로모션 ‘FOREFESTA’ (자하미술관, 서울)<br />
+                2025 ‘마음이 피어나는 자리’ (아트문갤러리, 서울)<br />
+                2025 ‘김산, 남재현 2인전’ (디바인갤러리, 서울)<br />
+                2025 ‘행복한 그림’展 (맥화랑, 부산)<br />
+                2025 ‘은유적 형상, 그 이면을 바라보다’ (비디갤러리, 서울)<br />
+                2025 Fly High (포브갤러리, 서울)<br />
+                2025 봄, 소품 (갤러리위, 용인수지)<br />
+                2024 뮤즈세움 연말기획 ‘세움전’ (뮤즈세움 갤러리, 울산)<br />
+                2024 Goodbye 2024 (포브갤러리, 서울)<br />
+                2024 천경자 탄생 100주년 ‘천재 화가, 천경자를 기리고 그리다.’ (고흥아트센터, 전남)<br />
+                2024 Whistling Wish (맨션나인, 서울)<br />
+                2024 Filling : 공간과 감정을 가득 채우다 (포브갤러리, 서울)<br />
+                2024 Kingdom of Animals (경인미술관, 서울)<br />
+                2024 ‘DREAMSCAPE’ (갤러리 엘르, 서울)<br />
+                2024 ‘Carpe Diem’ (청담보자르갤러리, 서울)<br />
+                2024 내 안의 자연 (이중섭미술관 기획전시실, 제주)<br />
+                2023 낭만시대 (컨벤시아갤러리, 인천)<br />
+                2023 뮤즈세움 연말기획 ‘세움전’ (뮤즈세움 갤러리, 울산)<br />
+                2023 교환전 (A.P.Y, 서울)<br />
+                2023 THE COLLECTION In Ulsan (현대백화점 울산점, 울산)<br />
+                2023 제주 숲, 곶자왈 이야기 (기당미술관, 제주)<br />
+                2022 언:리얼 제주(UN:REAL JEJU) (인사가나아트센터 B1, 서울)<br />
+                2022 인류세 시대, 평화의 이름으로 (제주국제평화센터 기획전시실, 제주)<br />
+                2022 YOUTHFUL22 (갤러리 초이, 서울)<br />
+                2022 EMPIRICAL LANDSCAPE (제주 드림타워 갤러리라운지, 제주)<br />
+                2022 4.3 미술제 ‘봉인된 풍경’ (예술공간 이아, 제주)<br />
+                2021 기꺼이 가까이 (제주현대미술관, 제주)<br />
+                2021 젊은 모색 (국립현대미술관, 과천)<br />
+                2021 시대의 자화상 (델문도 뮤지엄, 제주)<br />
+                2021 다시 돌아, 그린 봄 (제주국제평화센터 기획전시실, 제주)<br />
+                2021 4.3 미술제 ‘어떤 풍경’ (예술공간 이아, 제주)<br />
+                2021 ‘나를 찾아줘-하지마,하지마,하지마’ (새탕라움, 제주)<br />
+                2020 ‘제주동인(齊州同人)’ (제주도립미술관, 제주)<br />
+                2020 ‘아트페스타 in 제주’ (산지천갤러리, 제주)<br />
+                2020 4.3미술제 ‘래일(來日)’ (4.3평화공원 기획전시실, 제주)<br />
+                2019 ‘아름다운 여행’展 (슈페리어 갤러리, 서울)<br />
+                2019 ‘할로영산(Halo Youngsan)’ (예술공간 이아, 제주)<br />
+                2019 ‘카르페디엠, 오늘을 즐겨라’ (기당미술관, 제주)<br />
+                2019 제주청년작가 25년 아카이브 ‘舊本新參’ (제주문예회관, 제주)<br />
+                2019 기해년 신년기획전 ‘도새기 해가 떴습니다’ (이중섭미술관 기획전시실, 제주)<br />
+                2018 쪼끌락미술시장 서귀포사랑 (기당미술관, 제주)<br />
+                2018 회화의 귀환, 재현과 추상사이 (예술공간 이아, 제주)<br />
+                2018 제주기행 ‘길에서 만나다’ (예술의전당 전시실, 제주)<br />
+                2018 4.3 70주년 동아시아 평화인권展 ‘침묵에서 외침으로’ (4.3 평화공원 기획전시실, 제주)<br />
+                2018 ‘YOUNG PIONEER NAVIGATE’ (예술공간 이아, 제주)<br />
+                2018 ‘또 하나의 가족, 개와 게’ (이중섭미술관 기획전시실, 제주)<br />
+                2017 ‘그대 있어 행복한 세상’ (기당미술관, 제주)<br />
+                2017 ‘無爲自然(무위자연), 스스로 그러하다.’ (예술의전당 전시실, 제주)<br />
+                2017 바람 부는 날, 그때 제주 (4.3 평화공원 기획전시실, 제주)<br />
+                2016 바람 잔날, 그때 제주 (4.3 평화공원 기획전시실, 제주)<br />
+                2016 평화, 슬픔에 핀 소망의 꽃 (4.3 평화공원 기획전시실, 제주)<br />
+                2016 ‘청춘의 계단’ 이중섭미술관 청년작가 초대전 (이중섭미술관 기획전시실, 제주)
+              </p>
             </section>
 
             {/* 아트페어 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">아트페어</h3>
-              <ul className="list-none space-y-1">
-                <li>2025&nbsp;&nbsp;DIAF (EXCO, 대구)</li>
-                <li>2025&nbsp;&nbsp;KIAF Seoul (코엑스 B HALL, 서울)</li>
-                <li>2025&nbsp;&nbsp;New York Affordable Artfair (Starrett-Lehigh Building 4th Floor, NYC)</li>
-                <li>2025&nbsp;&nbsp;Toronto Art Show (Meridian Arts Centre, Toronto)</li>
-                <li>2025&nbsp;&nbsp;아트부산 (벡스코 제1전시관, 부산)</li>
-                <li>2025&nbsp;&nbsp;화랑미술제 (코엑스 B HALL, 서울)</li>
-                <li>2025&nbsp;&nbsp;BAMA (벡스코 제1전시관, 부산)</li>
-                <li>2024&nbsp;&nbsp;KIAF Seoul (코엑스 B HALL, 서울)</li>
-                <li>2024&nbsp;&nbsp;화랑미술제 in 수원 (수원컨벤션센터, 수원)</li>
-                <li>2024&nbsp;&nbsp;아트부산 (벡스코 제1전시관, 부산)</li>
-                <li>2024&nbsp;&nbsp;화랑미술제 (코엑스 C HALL, 서울)</li>
-                <li>2024&nbsp;&nbsp;We are all Animals(WAAA) (Columbus Centre, Toronto)</li>
-                <li>2024&nbsp;&nbsp;BAMA (벡스코 제1전시관, 부산)</li>
-                <li>2024&nbsp;&nbsp;ART TAINAN (실크스 플레이스 호텔, 대만)</li>
-                <li>2024&nbsp;&nbsp;ONE ART Taipei (메트로폴리탄 프리미어호텔, 대만)</li>
-                <li>2023&nbsp;&nbsp;Art Formosa (에슬라이트 호텔, 대만)</li>
-                <li>2023&nbsp;&nbsp;BAMA (벡스코 제1전시관, 부산)</li>
-                <li>2022&nbsp;&nbsp;서울아트쇼 (코엑스 B HALL, 서울)</li>
-                <li>2022&nbsp;&nbsp;어반브레이크 (코엑스 B HALL, 서울)</li>
-                <li>2022&nbsp;&nbsp;울산국제아트페어 (UECO 울산전시컨벤션센터, 울산)</li>
-                <li>2022&nbsp;&nbsp;BAMA (벡스코 제1전시관, 부산)</li>
-                <li>2021&nbsp;&nbsp;서울아트쇼 (코엑스 A HALL, 서울)</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2025 DIAF (EXCO, 대구)<br />
+                2025 KIAF Seoul (코엑스 B HALL, 서울)<br />
+                2025 New York Affordable Artfair (Starrett-Lehigh Building 4th Floor, NYC)<br />
+                2025 Toronto Art Show (Meridian Arts Centre, Toronto)<br />
+                2025 아트부산 (벡스코 제1전시관, 부산)<br />
+                2025 화랑미술제 (코엑스 B HALL, 서울)<br />
+                2025 BAMA (벡스코 제1전시관, 부산)<br />
+                2024 KIAF Seoul (코엑스 B HALL, 서울)<br />
+                2024 화랑미술제 in 수원 (수원컨벤션센터, 수원)<br />
+                2024 아트부산 (벡스코 제1전시관, 부산)<br />
+                2024 화랑미술제 (코엑스 C HALL, 서울)<br />
+                2024 We are all Animals (WAAA) (Columbus Centre, Toronto)<br />
+                2024 BAMA (벡스코 제1전시관, 부산)<br />
+                2024 ART TAINAN (실크스 플레이스 호텔, 대만)<br />
+                2024 ONE ART Taipei (메트로폴리탄 프리미어호텔, 대만)<br />
+                2023 Art Formosa (에슬라이트 호텔, 대만)<br />
+                2023 BAMA (벡스코 제1전시관, 부산)<br />
+                2022 서울아트쇼 (코엑스 B HALL, 서울)<br />
+                2022 어반브레이크 (코엑스 B HALL, 서울)<br />
+                2022 울산국제아트페어 (UECO 울산전시컨벤션센터, 울산)<br />
+                2022 BAMA (벡스코 제1전시관, 부산)<br />
+                2021 서울아트쇼 (코엑스 A HALL, 서울)
+              </p>
             </section>
 
             {/* 팝업전시 · 아트콜라보 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">팝업전시 · 아트콜라보</h3>
-              <ul className="list-none space-y-1">
-                <li>2025&nbsp;&nbsp;오미로제 연 Sparkling wine Collaboration (오미나라)</li>
-                <li>2025&nbsp;&nbsp;‘WINELL’ WINE Collaboration with FANTINI EDIZIONE (와이넬, 서울)</li>
-                <li>2025&nbsp;&nbsp;‘WUNDERKAMMER : 진귀한 풍경’ (맨션나인/신세계백화점 사우스시티, 용인)</li>
-                <li>2024&nbsp;&nbsp;YKA FESTA : 창의력 주유소 (커넥아트/아트뮤즈/서울특별시, 압구정)</li>
-                <li>2024&nbsp;&nbsp;디자인페스티벌 (바이서우, 현대프리미엄 아울렛 스페이스1)</li>
-                <li>2024&nbsp;&nbsp;byseowoo 랩원피스, 홈웨어 아트콜라보</li>
-                <li>2023&nbsp;&nbsp;PARFYMERA 디퓨저 아트콜라보</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2025 DIAF (EXCO, 대구)<br />
+                2025 KIAF Seoul (코엑스 B HALL, 서울)<br />
+                2025 New York Affordable Artfair (Starrett-Lehigh Building 4th Floor, NYC)<br />
+                2025 Toronto Art Show (Meridian Arts Centre, Toronto)<br />
+                2025 아트부산 (벡스코 제1전시관, 부산)<br />
+                2025 화랑미술제 (코엑스 B HALL, 서울)<br />
+                2025 BAMA (벡스코 제1전시관, 부산)<br />
+                2024 KIAF Seoul (코엑스 B HALL, 서울)<br />
+                2024 화랑미술제 in 수원 (수원컨벤션센터, 수원)<br />
+                2024 아트부산 (벡스코 제1전시관, 부산)<br />
+                2024 화랑미술제 (코엑스 C HALL, 서울)<br />
+                2024 We are all Animals (WAAA) (Columbus Centre, Toronto)<br />
+                2024 BAMA (벡스코 제1전시관, 부산)<br />
+                2024 ART TAINAN (실크스 플레이스 호텔, 대만)<br />
+                2024 ONE ART Taipei (메트로폴리탄 프리미어호텔, 대만)<br />
+                2023 Art Formosa (에슬라이트 호텔, 대만)<br />
+                2023 BAMA (벡스코 제1전시관, 부산)<br />
+                2022 서울아트쇼 (코엑스 B HALL, 서울)<br />
+                2022 어반브레이크 (코엑스 B HALL, 서울)<br />
+                2022 울산국제아트페어 (UECO 울산전시컨벤션센터, 울산)<br />
+                2022 BAMA (벡스코 제1전시관, 부산)<br />
+                2021 서울아트쇼 (코엑스 A HALL, 서울)
+              </p>
             </section>
 
             {/* 레지던시 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">레지던시</h3>
-              <ul className="list-none space-y-1">
-                <li>2025&nbsp;&nbsp;AMP(Atelier Mansion Program) 2기 입주 (후암동, 서울)</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2025 AMP(Atelier Mansion Program) 2기 입주 (후암동, 서울)
+              </p>
             </section>
 
             {/* 방송 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">방송</h3>
-              <ul className="list-none space-y-1">
-                <li>2025.02.11.&nbsp;&nbsp;KNN [아트앤컬쳐]</li>
-                <li>2024.03.15.&nbsp;&nbsp;제주MBC [로그인 제주] (특집인터뷰)</li>
-                <li>2024.02.22.&nbsp;&nbsp;KBS제주 [탐나는 제주] (인터뷰)</li>
-                <li>2023.04.21.&nbsp;&nbsp;제주MBC [로그인 제주] (특집인터뷰)</li>
-                <li>2022.08.16.&nbsp;&nbsp;SBS뉴스 [문화현장_갤러리초이] (인터뷰)</li>
-                <li>2022.02.28.&nbsp;&nbsp;KBS 문화스케치 [풍경의 재발견-화가 김산] (특집)</li>
-                <li>2021.06.02.&nbsp;&nbsp;KBS [제주, 희망人] (특집)</li>
-                <li>2020.01.10.&nbsp;&nbsp;생방송 제주MBC 제주가 좋다 주말N (특집)</li>
-                <li>2018.03.31.&nbsp;&nbsp;JIBS 나우제주컬쳐 [폭낭으로 그리는 제주, 김산] (특집)</li>
-                <li>2018.03.05.&nbsp;&nbsp;KBS 문화산책 [또 하나의 가족, 개와 게] (인터뷰) 외 다수</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug mt-4">
+                2025.02.11. KNN [아트앤컬쳐]<br />
+                2024.03.15. 제주MBC [로그인 제주] (특집인터뷰)<br />
+                2024.02.22. KBS제주 [탐나는 제주] (인터뷰)<br />
+                2023.04.21. 제주MBC [로그인 제주] (특집인터뷰)<br />
+                2022.08.16. SBS뉴스 [문화현장_갤러리초이] (인터뷰)<br />
+                2022.02.28. KBS 문화스케치 [풍경의 재발견-화가 김산] (특집)<br />
+                2021.06.02. KBS [제주, 희망人] (특집)<br />
+                2020.01.10. 생방송 제주MBC 제주가 좋다 주말N (특집)<br />
+                2018.03.31. JIBS 나우제주컬쳐 [폭낭으로 그리는 제주, 김산] (특집)<br />
+                2018.03.05. KBS 문화산책 [또 하나의 가족, 개와 게] (인터뷰) 외 다수
+              </p>
             </section>
 
             {/* 전시기획 */}
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">전시기획</h3>
-              <ul className="list-none space-y-1">
-                <li>2025&nbsp;&nbsp;동물의 화원 (아트인명도암, 제주 / 아트스페이스산 기획)</li>
-                <li>2024&nbsp;&nbsp;시대정신 (델문도 뮤지엄, 제주 / 아트스페이스산 기획)</li>
-                <li>2022&nbsp;&nbsp;EMPIRICAL LANDSCAPE (제주드림타워 갤러리라운지, 제주 / 아트스페이스산 기획)</li>
-                <li>2021&nbsp;&nbsp;제주-서울 교류전 ‘시대의 자화상’ (델문도 뮤지엄, 제주 / 아트스페이스산 기획)</li>
-              </ul>
+              <p className="text-m text-muted-foreground leading-snug">
+                2025 동물의 화원 (아트인명도암, 제주 / 아트스페이스산 기획)<br />
+                2024 시대정신 (델문도 뮤지엄, 제주 / 아트스페이스산 기획)<br />
+                2022 EMPIRICAL LANDSCAPE (제주드림타워 갤러리라운지, 제주 / 아트스페이스산 기획)<br />
+                2021 제주-서울 교류전 ‘시대의 자화상’ (델문도 뮤지엄, 제주 / 아트스페이스산 기획)
+              </p>
             </section>
           </div>
           </div>
