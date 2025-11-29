@@ -12,7 +12,7 @@ export const artists: ArtistMeta[] = [
     name: "김 산",
     nameEn: "Kim san",
     medium: "회화 | Painting",
-    thumbnail: "/images/Exhibition/1/01.png"
+    thumbnail: "/images/Artist/kimsan/01_ks.jpg"
   },
   {
     id: "rohhyunwoo",

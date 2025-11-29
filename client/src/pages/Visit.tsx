@@ -132,7 +132,7 @@ export default function Visit() {
               </div>
 
               {/* Google Map */}
-              <div className="w-full h-[360px] md:h-[420px] rounded-md overflow-hidden md:ml-10">
+              <div className="w-full h-[360px] md:h-[420px] rounded-md overflow-hidden md:ml-10 ml-10">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.1428840521094!2d127.03546673833074!3d37.46183132587029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca12a7b4a486d%3A0xa33e1b384ae28228!2z65287Iuc65Sw6424652866qo64uk!5e0!3m2!1sen!2skr!4v1764380161727!5m2!1sen!2skr"
                   width="60%"
