@@ -15,7 +15,7 @@ export const exhibitions: Exhibition[] = [
     id: "1",
     title: "ON VEIW",
     titleEn: "ON VIEW",
-    artists: "KIM SAN, ROH HYUNWOO, LEE YOUNGJI, LEE JUNGYONG, JANG SEIL, CHOI WOO | 김산, 노현우, 이영지, 이정용, 장세일, 최우",
+    artists: "KIM SAN   ROH HYUNWOO   LEE YOUNGJI   LEE JUNGYONG   JANG SEIL   CHOI WOO   김산   노현우   이영지   이정용   장세일   최우",
     date: "2025.12.04 - 2026.01.07",
     status: "current", 
     // Stauts 에 값을 past / upcoming / current 로 넣어주면 변경됨

@@ -51,7 +51,7 @@ export default function Home() {
                   <h3 className="text-base sm:text-lg font-semibold mb-1 text-foreground">
                     {exhibition.title}
                   </h3>
-                  <p className="text-xs sm:text-sm text-muted-foreground mb-0.5">
+                  <p className="text-xs sm:text-sm text-muted-foreground mb-0.5 whitespace-pre-wrap">
                     {exhibition.artists}
                   </p>
                   <p className="text-xs sm:text-sm text-muted-foreground">
