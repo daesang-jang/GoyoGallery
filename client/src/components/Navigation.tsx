@@ -23,11 +23,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/home" data-testid="link-home-logo">
-            <img 
-              src="/public/.png" // Update this with the correct path to your logo image
-              alt="GOYO 로고 이미지 들어가야해" 
-              className="w-full max-w-xs" // You can adjust the sizing as needed
-            />
+            <p>GOYO Gallery</p>
           </Link>
 
           <div className="hidden md:flex items-center gap-1">
