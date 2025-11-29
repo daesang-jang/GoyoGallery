@@ -10,13 +10,12 @@ export default function ArtistDetail_kimsan() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-foreground" data-testid="text-artist-name">
-              김산
+              김산 | KIM San
             </h1>
-            <h2 className="text-2xl md:text-3xl font-light mb-2 text-foreground/80">
-              KIM San
-            </h2>
+            <h3 className="text-l md:text-xl font-light mb-2 text-foreground/80">
+              B.1989 Based in Seoul, KR
+            </h3>
             <div className=" mb-12 text-sm text-muted-foreground ">
-              <p>B.1989 Based in Seoul, KR</p>
             </div>
             <div className="mb-20">
               <img src="/images/Artist/kimsan/01_ks.jpg" alt="김산" className="w-full md:w-3/4 lg:w-2/4 mx-auto rounded-md mb-2" />
@@ -201,17 +200,17 @@ export default function ArtistDetail_kimsan() {
 
         
           </div>
-        </div>
-        <div className="h-px w-full bg-border mb-16" />
+           <div className="h-px w-full bg-border mb-16" />
+        
+       
     
         <div className="prose prose-m max-w-none text-m text-muted-foreground leading-relaxed space-y-4">
           <div className="mt-10 max-w-4xl mx-auto text-m text-muted-foreground leading-relaxed space-y-4">
-            <h2 className="text-2xl md:text-3xl font-light mb-12 text-foreground/80">
-              CV 
+            <h2 className="text-2xl md:text-3xl font-light mb-12 text-foreground/80"> 
             </h2>
             <div className="mb-18">
               <div className="flex flex-col leading-none">
-                <span className="text-m text-foreground font-medium mb-3">
+                <span className="text-2xl font-bold text-foreground mb-3">
                   김산 | KIM San
                 </span>
                 <span className="text-m text-muted-foreground">
@@ -223,7 +222,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 학력 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mt-14">학력</h3>
+              <h3 className="text-m font-semibold text-foreground mt-14">학력</h3>
               <ul className="list-none space-y-1">
                 <li>2019&nbsp;&nbsp;제주대학교 일반대학원 미술학과 서양화전공 석사</li>
                 <li>2015&nbsp;&nbsp;제주대학교 예술디자인대학 미술학부 서양화전공</li>
@@ -232,7 +231,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 수상 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">수상</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">수상</h3>
               <ul className="list-none space-y-1">
                 <li>2024&nbsp;&nbsp;JDC-제주문화예술재단 청년작가 선정 (JDC/제주문화예술재단, 제주)</li>
                 <li>2024&nbsp;&nbsp;제2회 제주청년예술인상 수상 (한국예총제주특별자치도연합회, 제주)</li>
@@ -244,7 +243,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 작품소장 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">작품소장</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">작품소장</h3>
               <ul className="list-none space-y-1">
                 <li>국립현대미술관 정부미술은행, 제주특별자치도, 제주현대미술관, 기당미술관, 제주경찰청, 서귀포시청,하나은행 서울본점, 제주 4·3 평화공원, 제주드림타워복합리조트, 한라동물의료센터, 델문도뮤지엄 외 개인 소장</li>  
                 </ul>
@@ -253,7 +252,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 개인전 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">개인전</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">개인전</h3>
               <ul className="list-none space-y-1">
                 <li>2025&nbsp;&nbsp;제14회 개인전 ‘다시 피어나는 숲’ (아산병원갤러리, 서울)</li>
                 <li>2025&nbsp;&nbsp;제13회 초대전 ‘마음의 풍경’ (아트스페이스 H, 서울)</li>
@@ -274,7 +273,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 단체전 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">단체전</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">단체전</h3>
               <ul className="list-none space-y-1">
                 <li>2025&nbsp;&nbsp;제주도전 50년 : 반세기의 도전 (제주도립미술관, 제주)</li>
                 <li>2025&nbsp;&nbsp;차세대 작가 프로모션 ‘FOREFESTA’ (자하미술관, 서울)</li>
@@ -334,7 +333,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 아트페어 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">아트페어</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">아트페어</h3>
               <ul className="list-none space-y-1">
                 <li>2025&nbsp;&nbsp;DIAF (EXCO, 대구)</li>
                 <li>2025&nbsp;&nbsp;KIAF Seoul (코엑스 B HALL, 서울)</li>
@@ -363,7 +362,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 팝업전시 · 아트콜라보 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">팝업전시 · 아트콜라보</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">팝업전시 · 아트콜라보</h3>
               <ul className="list-none space-y-1">
                 <li>2025&nbsp;&nbsp;오미로제 연 Sparkling wine Collaboration (오미나라)</li>
                 <li>2025&nbsp;&nbsp;‘WINELL’ WINE Collaboration with FANTINI EDIZIONE (와이넬, 서울)</li>
@@ -377,7 +376,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 레지던시 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">레지던시</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">레지던시</h3>
               <ul className="list-none space-y-1">
                 <li>2025&nbsp;&nbsp;AMP(Atelier Mansion Program) 2기 입주 (후암동, 서울)</li>
               </ul>
@@ -385,7 +384,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 방송 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">방송</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">방송</h3>
               <ul className="list-none space-y-1">
                 <li>2025.02.11.&nbsp;&nbsp;KNN [아트앤컬쳐]</li>
                 <li>2024.03.15.&nbsp;&nbsp;제주MBC [로그인 제주] (특집인터뷰)</li>
@@ -402,7 +401,7 @@ export default function ArtistDetail_kimsan() {
 
             {/* 전시기획 */}
             <section>
-              <h3 className="text-sm font-semibold text-foreground mb-1">전시기획</h3>
+              <h3 className="text-m font-semibold text-foreground mb-1">전시기획</h3>
               <ul className="list-none space-y-1">
                 <li>2025&nbsp;&nbsp;동물의 화원 (아트인명도암, 제주 / 아트스페이스산 기획)</li>
                 <li>2024&nbsp;&nbsp;시대정신 (델문도 뮤지엄, 제주 / 아트스페이스산 기획)</li>
@@ -411,7 +410,7 @@ export default function ArtistDetail_kimsan() {
               </ul>
             </section>
           </div>
-
+          </div>
           </div>
 
       </main>
