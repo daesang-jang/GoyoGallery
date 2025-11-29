@@ -24,7 +24,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between">
           <Link href="/home" data-testid="link-home-logo" className="flex-shrink-0">
             <img
-              src="/public/logo/logo_black_garo.png"
+              src="/logo/logo_black_garo.png"
               alt="GOYO GALLERY"
               className="h-6 md:h-8 w-auto object-contain"
             />
