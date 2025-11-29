@@ -72,7 +72,7 @@ export default function ExhibitionDetail1() {
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                Kim San &lt;본향(本鄕)_ 빛의 숲(2025)&gt; Mixed media on Canvas 116.8x91.0cm 
+                KIM San &lt;본향(本鄕)_ 빛의 숲(2025)&gt; Mixed media on Canvas 116.8x91.0cm 
 
               </p>
             </div>
@@ -84,8 +84,7 @@ export default function ExhibitionDetail1() {
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                Roh Hyun-Woo | No.029_Unititle, 2018 <br />
-                  <em>Oil on canvas 145.5x227.3cm</em>
+                ROH HyeunWoo &lt;No.184_AM05:45 08° 30.JUL.2019(2025)&gt; Oil on Canvas 93.0x163.0cm
               </p>
             </div>
 
@@ -96,8 +95,7 @@ export default function ExhibitionDetail1() {
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                Lee Jung-young | surface-24xx, 2024 <br />
-                  <em>Acrylic on canvas_2024</em>
+                LEE JungYong &lt;Surface-2526(2024)&gt; Acrylic on Canvas 116.8x91.0cm
               </p>
             </div>
 
@@ -108,7 +106,7 @@ export default function ExhibitionDetail1() {
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                Lee Young-Ji | 행복한 순간, 지금, 2022 <br />
+                LEE YoungJi &lt;바람 속의 멜로디(2025)&gt; Bunchae on Jangji 91.0x91.0cm
                   <em></em>
               </p>
             </div>
@@ -120,8 +118,7 @@ export default function ExhibitionDetail1() {
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                Jang Seil | Standard Animal - 아직도 적응중, 2024 <br />
-                <em>Resin, Acrylic Paint, 46 x 24 x 68 cm</em>
+                JANG SeIl &lt;Standard animal(2025)&gt; Resin Urethane Coating
               </p>
             </div>
             
@@ -132,8 +129,7 @@ export default function ExhibitionDetail1() {
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                choi woo | Cosmos-Anchor 닻, 2022 <br />
-                <em></em>
+                CHOI Woo &lt;바다사나이(2025)&gt; Oil and Acrylic on Linen 72.7x72.7cm
               </p>
             </div>
           </div>
