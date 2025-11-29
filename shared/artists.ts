@@ -19,35 +19,35 @@ export const artists: ArtistMeta[] = [
     name: "노현우",
     nameEn: "Roh Hyun-woo",
     medium: "회화 | Painting",
-    thumbnail: "/images/Exhibition/1/02.png"
+    thumbnail: "/images/Artist/rohhyunwoo/01_rhw.jpg"
   },
   {
     id: "leejungyoung",
     name: "이정용",
-    nameEn: "Lee Jung-young",
+    nameEn: "Lee Jung-yong",
     medium: "회화 | Painting",
-    thumbnail: "/images/Exhibition/1/03.png"
+    thumbnail: "/images/Artist/leejungyong/01_ljy.jpg"
   },
   {
     id: "leeyoungji",
     name: "이영지",
     nameEn: "Lee Young-ji",
     medium: "회화 | Painting",
-    thumbnail: "/images/Exhibition/1/04.png"
+    thumbnail: "/images/Artist/leeyoungji/01_lyj.jpg"
   },
   {
     id: "jangseil",
     name: "장세일",
     nameEn: "Jang Se-il",
     medium: "조각 | Sculpture",
-    thumbnail: "/images/Exhibition/1/05.png"
+    thumbnail: "/images/Artist/jangseil/01_jsi.jpg"
   },
   {
     id: "choiwoo",
     name: "최우",
     nameEn: "Choi Woo",
     medium: "회화 | Painting",
-    thumbnail: "/images/Exhibition/1/06.png"
+    thumbnail: "/images/Artist/choiwoo/01_cw.jpg"
   },
 ];
 

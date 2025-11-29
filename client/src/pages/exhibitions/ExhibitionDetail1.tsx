@@ -67,19 +67,19 @@ export default function ExhibitionDetail1() {
           <div className="space-y-12">
             <div>
               <img
-                src="/images/Exhibition/1/01.png"
+                src="/images/Artist/kimsan/01_ks.jpg"
                 alt="김산"
                 className="w-full rounded-md mb-4"
               />
               <p className="text-sm text-muted-foreground">
-                Kim San | Deer My Dear 본향-낙원, 2025 <br />
-                  <em></em>
+                Kim San &lt;본향(本鄕)_ 빛의 숲(2025)&gt; Mixed media on Canvas 116.8x91.0cm 
+
               </p>
             </div>
 
             <div>
               <img
-                src="/images/Exhibition/1/02.png"
+                src="/images/Artist/rohhyunwoo/01_rhw.jpg"
                 alt="노현우"
                 className="w-full rounded-md mb-4"
               />
@@ -91,7 +91,7 @@ export default function ExhibitionDetail1() {
 
             <div>
               <img
-                src="/images/Exhibition/1/03.png"
+                src="/images/Artist/leejungyong/01_ljy.jpg"
                 alt="이정용"
                 className="w-full rounded-md mb-4"
               />
@@ -103,7 +103,7 @@ export default function ExhibitionDetail1() {
 
             <div>
               <img
-                src="/images/Exhibition/1/04.png"
+                src="/images/Artist/leeyoungji/01_lyj.jpg"
                 alt="이영지"
                 className="w-full rounded-md mb-4"
               />
@@ -115,7 +115,7 @@ export default function ExhibitionDetail1() {
 
             <div>
               <img
-                src="/images/Exhibition/1/05.png"
+                src="/images/Artist/jangseil/01_jsi.jpg"
                 alt="장세일"
                 className="w-full rounded-md mb-4"
               />
@@ -127,7 +127,7 @@ export default function ExhibitionDetail1() {
             
             <div>
               <img
-                src="/images/Exhibition/1/06.png"
+                src="/images/Artist/choiwoo/01_cw.jpg"
                 alt="최우"
                 className="w-full rounded-md mb-4"
               />
