@@ -18,23 +18,30 @@ export default function ExhibitionDetail1() {
               First Exhibition
             </h2>
             
-            <div className="space-y-1 mb-8">
-              <p className="text-m text-muted-foreground">
-                <span className="mr-3">KIM SAN</span>
-                <span className="mr-3">ROH HYUNWOO</span>
-                <span className="mr-3">LEE YOUNGJI</span>
-                <span className="mr-3">LEE JUNGYONG</span>
-                <span className="mr-3">JANG SEIL</span>
-                <span>CHOI WOO</span>
-              </p>
-              <p className="text-m text-muted-foreground">
-                <span className="mr-3">김산</span>
-                <span className="mr-3">노현우</span>
-                <span className="mr-3">이영지</span>
-                <span className="mr-3">이정용</span>
-                <span className="mr-3">장세일</span>
-                <span>최우</span>
-              </p>
+              <div className="space-y-1 mb-8">
+                {/* 영문 이름 */}
+                <p className="text-m text-muted-foreground">
+                  <span className="mr-3">KIM SAN</span>
+                  <span className="mr-3">ROH HYUNWOO</span>
+                  <span className="mr-3">LEE YOUNGJI</span>
+                  {/* 모바일에서만 줄바꿈 */}
+                  <br className="block md:hidden" />
+                  <span className="mr-3">LEE JUNGYONG</span>
+                  <span className="mr-3">JANG SEIL</span>
+                  <span>CHOI WOO</span>
+                </p>
+
+                {/* 한글 이름 */}
+                <p className="text-m text-muted-foreground">
+                  <span className="mr-3">김산</span>
+                  <span className="mr-3">노현우</span>
+                  <span className="mr-3">이영지</span>
+                  {/* 모바일에서만 줄바꿈 */}
+                  <br className="block md:hidden" />
+                  <span className="mr-3">이정용</span>
+                  <span className="mr-3">장세일</span>
+                  <span>최우</span>
+                </p>
               <p className="text-sm text-muted-foreground flex items-center gap-2">
                 <Calendar className="h-4 w-4" />
                 2025.12.04 - 2026.01.07
