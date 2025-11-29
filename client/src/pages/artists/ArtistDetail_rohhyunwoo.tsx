@@ -59,90 +59,90 @@ export default function ArtistDetail_rohhyunwoo() {
               <img
                 src="/images/Artist/rohhyunwoo/01_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-              <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                ROH HyeunWoo &lt;No.184_AM05:45 08° 30.JUL.2019 (2025)&gt; Oil on Canvas 93.0x163.0cm 
+                <p className="text-xs text-muted-foreground">
+                ROH HyeunWoo &lt;No.184_AM05:45 08° 30.JUL.2019(2025)&gt; Oil on Canvas 93.0x163.0cm 
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/02_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.179_AM04:22 17° 04.JUL.2018 (2025)&gt; Oil on Canvas 89.4x130.3cm 
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.179_AM04:22 17° 04.JUL.2018(2025)&gt; Oil on Canvas 130.3x89.4cm 
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/03_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.163_AM06:58 13° 26.AUG.2019 (2024)&gt; Oil on Canvas 55.0x95.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.163_AM06:58 13° 26.AUG.2019(2024)&gt; Oil on Canvas 55.0x95.0cm
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/04_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.176_PM08:28 17° 07.AUG.2018 (2024)&gt; Oil on Canvas 55.0x95.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.176_PM08:28 17° 07.AUG.2018(2024)&gt; Oil on Canvas 55.0x95.0cm
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/05_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.191_AM04:13 08° 30.JUL.2019 (2025)&gt; Oil on Canvas 55.0x95.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.191_AM04:13 08° 30.JUL.2019(2025)&gt; Oil on Canvas 55.0x95.0cm
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/06_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.193_AM05:48 08° 30.JUL.2019 (2023)&gt; Oil on Canvas 91.0x63.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.193_AM05:48 08° 30.JUL.2019(2023)&gt; Oil on Canvas 91.0x63.0cm
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/07_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.201_07:09AM 20° 10.JUN.2025 (2025)&gt; Oil on Canvas 40.0x65.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.201_07:09AM 20° 10.JUN.2025(2025)&gt; Oil on Canvas 40.0x65.0cm
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/08_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.202_06:35AM 19° 10.JUN.2025 (2025)&gt; Oil on Canvas 22.0x45.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.202_06:35AM 19° 10.JUN.2025(2025)&gt; Oil on Canvas 22.0x45.0cm
               </p>
             </div>
             <div>
               <img
                 src="/images/Artist/rohhyunwoo/09_rhw.jpg"
                 alt="노현우"
-                className="w-full rounded-md mb-4"
+                className="w-full rounded-md mb-2"
               />
-                <p className="text-xs md:text-xs text-muted-foreground text-center leading-snug">
-                  ROH HyeunWoo &lt;No.203_06:40AM 19° 10.JUN.2025 (2025)&gt; Oil on Canvas 22.0x45.0cm
+                  <p className="text-xs text-muted-foreground">
+                  ROH HyeunWoo &lt;No.203_06:40AM 19° 10.JUN.2025(2025)&gt; Oil on Canvas 22.0x45.0cm
               </p>
             </div>
             

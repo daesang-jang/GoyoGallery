@@ -115,7 +115,7 @@ export default function ArtistDetail_kimsan() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                Kim San &lt;본향(本鄕)_ 반딧불이의 숲, (2025)&gt; Mixed media on Canvas 116.8x91.0cm 
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲(2025)&gt; Mixed media on Canvas 116.8x91.0cm 
               </p>
             </div>
             <div>
@@ -125,7 +125,7 @@ export default function ArtistDetail_kimsan() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                Kim San &lt;본향(本鄕)_ 반딧불이의 숲, (2025)&gt; Mixed media on Canvas 72.7×60.6cm
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲(2025)&gt; Mixed media on Canvas 72.7x60.6cm
               </p>
             </div>
             <div>
@@ -135,7 +135,7 @@ export default function ArtistDetail_kimsan() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-              Kim San &lt;본향(本鄕)_ 반딧불이의 숲, (2025)&gt; Mixed media on Canvas 72.7×60.6cm
+              Kim San &lt;본향(本鄕)_ 반딧불이의 숲(2025)&gt; Mixed media on Canvas 72.7x60.6cm
               </p>
             </div>
             <div>
@@ -145,7 +145,7 @@ export default function ArtistDetail_kimsan() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                Kim San &lt;본향(本鄕)_ 빛의 숲, (2025)&gt; Mixed media on Canvas 60.6×60.6cm
+                Kim San &lt;본향(本鄕)_ 빛의 숲(2025)&gt; Mixed media on Canvas 60.6x60.6cm
               </p>
             </div>
             <div>
@@ -155,7 +155,7 @@ export default function ArtistDetail_kimsan() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                Kim San &lt;본향(本鄕)_ 반딧불이의 숲, (2025)&gt; Mixed media on Canvas 60.6×60.6cm
+                Kim San &lt;본향(本鄕)_ 반딧불이의 숲(2025)&gt; Mixed media on Canvas 60.6x60.6cm
               </p>
             </div>
             <div>
@@ -165,7 +165,7 @@ export default function ArtistDetail_kimsan() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                Kim San &lt;본향(本鄕)_ 녹담(綠潭), (2025)&gt; Mixed media on Canvas 53.0×45.0cm
+                Kim San &lt;본향(本鄕)_ 녹담(綠潭)(2025)&gt; Mixed media on Canvas 53.0x45.0cm
               </p>
             </div>
             <div className="h-px w-full mb-16" />
