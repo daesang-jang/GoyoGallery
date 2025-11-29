@@ -9,8 +9,9 @@ export default function ArtistDetail_kimsan() {
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-4xl md:text-5xl font-semibold mb-6 text-foreground" data-testid="text-artist-name">
-              김산 KIM San
+            <h1 className="text-4xl md:text-5xl font-semibold mb-2 text-foreground" data-testid="text-artist-name">
+            <span>김산</span>
+            <span className="text-2xl md:text-3xl font-light ml-2">KIM San</span>
             </h1>
             <h3 className="text-l md:text-xl font-light mb-2 text-foreground/80">
               B.1989 Based in Seoul, KR
