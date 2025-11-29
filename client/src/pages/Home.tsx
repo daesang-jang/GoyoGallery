@@ -32,24 +32,22 @@ export default function Home() {
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
 
-      {/* 상단 여백: 모바일 줄이고 PC는 기존 유지 */}
       <main className="pt-24 md:pt-32 pb-16 flex-1">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-center items-center">
-            <div className="w-full max-w-sm sm:max-w-md">
+            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md">
               <Link href={`/exhibitions/detail/${exhibition.id}`}>
-                <div className="group cursor-pointer" data-testid={`card-exhibition-${exhibition.title}`}>
-
-                  {/* 포스터: 모바일에서 화면 높이 60%로 제한 + 전체가 보이게 */}
+                <div
+                  className="group cursor-pointer"
+                  data-testid={`card-exhibition-${exhibition.title}`}
+                >
                   <div className="bg-muted rounded-md mb-3 overflow-hidden">
                     <img
                       src={exhibition.image}
                       alt={exhibition.title}
-                      className="w-full max-h-[60vh] md:max-h-none object-contain md:object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
-
-                  {/* 텍스트: 모바일 폰트/여백 축소 */}
                   <h3 className="text-base sm:text-lg font-semibold mb-1 text-foreground">
                     {exhibition.title}
                   </h3>
