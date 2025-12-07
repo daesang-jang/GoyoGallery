@@ -88,11 +88,18 @@ Preferred communication style: Simple, everyday language.
 - Hot module replacement enabled
 - TypeScript type checking via `npm run check`
 
-**Production:**
+**Production (Replit):**
 - Build command: `npm run build`
 - Frontend: Vite builds to `dist/public`
 - Backend: esbuild bundles server code to `dist/index.js`
 - Start command: `npm start`
+
+**GitHub Pages Static Build:**
+- Build command: `npx vite build --base=./ --outDir=/path/to/repo/docs`
+- Outputs to `docs/` folder at repo root with relative paths (`./assets/`)
+- Contains: `index.html`, `assets/` (JS/CSS bundles), `images/`, `logo/`
+- Enable GitHub Pages: Settings → Pages → Source: "Deploy from a branch" → Branch: main, folder: /docs
+- Note: The production Replit deployment and GitHub Pages are separate build targets
 
 **Database Migrations:**
 - Command: `npm run db:push`
