@@ -1,0 +1,75 @@
+GoyoGallery 프로젝트(client/server 구조)에서 작업 중입니다. 아래 [1]번부터 [7]번까지 순서대로 처리해 주세요.
+
+[1] 프론트엔드 빌드 체인 정리
+- 대상 폴더: /client
+- 아래 둘 중 하나 기준으로, 에러 없이 정상 종료되도록 고쳐 주세요.
+  - `cd client && npm run build`
+  - 또는 `cd client && npx vite build`
+- dev(`npm run dev`)는 이미 잘 되는 상태라서, dev 동작을 건드리지 않는 선에서 build만 깨끗이 통과하게 해 주세요.
+- 현재 build 시에 발생하는 에러 유형(대표 예시):
+  - Tailwind 설정/커스텀 유틸 문제 (bg-background, border-border 등)
+  - `@` alias 경로 문제 (`@/components/...`, `@/pages/...`, `@/lib/...`)
+  - shadcn ui 컴포넌트 일부만 존재하거나, import만 있고 파일이 없는 경우 (toaster, tooltip, card 등)
+- 위 문제들을 “일단 막기”가 아니라,
+  - 실제로 사용하지 않는 import/컴포넌트는 코드에서 제거하고
+  - 실제로 사용하는 기능은 경로/설정을 올바르게 맞춰서 살리는 방식으로 정리해 주세요.
+- 중요한 전제: 지금 Replit에서 동작하는 UX, 라우팅, 화면 구조, 데이터 흐름은 그대로 유지해야 합니다.
+
+[2] 경로 alias 및 설정 일관성 정리
+- `@` alias를 사용할지, 상대 경로(`./pages/...`, `../components/...`)를 사용할지 한 가지 방식으로 통일해 주세요.
+- 만약 `@`를 유지한다면:
+  - `tsconfig.json` / `vite.config.*` 둘 다에서 `@ -> src` 설정을 일관되게 맞추고
+  - dev와 build 모두 동일하게 동작하도록 해 주세요.
+- App.tsx, 페이지들, 컴포넌트들에서 import 경로가 dev와 build에서 모두 유효해야 합니다.
+- 나중에 새 페이지/컴포넌트를 추가할 때도 같은 패턴을 따라갈 수 있도록, import 스타일을 정리해 주세요.
+
+[3] Tailwind 설정 정리
+- `tailwind.config.*` 의 `content` 설정이 현재 비어있거나 잘못 잡혀 있어서 경고가 나옵니다.
+- 실제 프로젝트 구조에 맞게 `content` 경로를 설정해서, 빌드시 스타일이 누락되지 않도록 수정해 주세요.
+  - 예: `./index.html`, `./src/**/*.{ts,tsx,js,jsx}` 등
+- 커스텀 유틸/컬러(bg-background, text-foreground, border-border 등)를 실제로 사용할 거라면:
+  - tailwind config의 `theme.extend` 또는 plugin 레이어에서 제대로 정의해 주세요.
+- 사용하지 않을 커스텀 유틸/컬러라면:
+  - CSS/JSX 쪽에서 해당 유틸을 제거하거나 일반 Tailwind 유틸로 치환해 주세요.
+
+[4] shadcn ui 계열 컴포넌트 정리
+- `@/components/ui/...` 계열 중 현재 프로젝트에서 실제로 사용하는 컴포넌트만 남기고 싶습니다.
+- not-found 페이지, 공통 레이아웃 등에서 사용하는 ui 컴포넌트들이 있다면:
+  - 해당 파일들이 실제로 존재하고, build에서도 문제 없이 불러와지도록 정리해 주세요.
+- import만 있고 실제로 쓰지 않는 컴포넌트가 있다면:
+  - import와 사용 코드를 제거해 주세요.
+- 가능한 한 기존 디자인/레이아웃이 크게 깨지지 않는 선에서 수정해 주세요.
+
+[5] GitHub Pages용 빌드 아웃풋 설정
+- 최종적으로 GitHub Pages에서 `docs` 폴더 기준으로 정적 서빙을 할 예정입니다.
+- 다음 둘 중 하나 형태로 빌드 결과가 레포 루트의 `docs` 폴더에 생성되도록 설정해 주세요:
+  1) Vite 설정에서:
+     - `client/vite.config.*` 의 `build.outDir` 를 `../docs` 또는 적절한 경로로 설정
+     - `base` 는 `./` 로 맞춰서 GitHub Pages 및 커스텀 도메인에서 경로가 꼬이지 않게 해 주세요.
+  2) 또는, 명령어 기반:
+     - `cd client && npx vite build --base=./ --outDir=../docs`
+- 어떤 방식을 택하든, 최종적으로:
+  - 레포 루트(= workspace 루트)에 `docs/index.html` 이 생성되고
+  - 그 안에 React 앱이 제대로 번들된 상태가 되어야 합니다.
+
+[6] Replit 런타임/배포는 건드리지 말 것
+- 지금 Replit에서 돌아가는 dev/배포(현재 연결된 도메인 포함)는 그대로 두고 싶습니다.
+- `.replit`, `replit.nix`, 서버 시작 스크립트 등 “실행/배포” 관련 설정은 변경하지 말고,
+  - 어디까지나 “프론트엔드 정적 빌드 체인”만 정리해 주세요.
+- 내가 원하는 최종 구조:
+  - 개발: 앞으로도 계속 Replit에서 `npm run dev` 등으로 개발
+  - 배포: GitHub에 push → GitHub Pages에서 `docs` 정적 파일 서빙
+
+[7] 작업 후 확인 및 요약 요청
+- 작업이 끝나면, 아래 세 가지를 직접 검증한 뒤 결과를 알려 주세요:
+  1) `cd client && npm run build` 또는  
+     `cd client && npx vite build --base=./ --outDir=../docs` 가 에러 없이 성공하는지
+  2) 레포 루트에 `docs/index.html` 이 생성되어 있고, 그 안에 번들된 앱이 있는지
+  3) `npm run dev` 로 개발 서버를 띄웠을 때, 기존과 동일하게 주요 페이지(Splash, Home, Exhibitions, Artists 등)가 정상 동작하는지
+- 그리고 마지막에:
+  - 어떤 파일들을 수정했는지
+  - alias/Tailwind 설정을 어떻게 정리했는지
+  - 앞으로 새 페이지/컴포넌트를 추가할 때 어떤 import 패턴/설정을 따라야 하는지
+  를 짧게 요약해서 텍스트로 남겨 주세요.
+
+위 조건들을 지키면서 “빌드 통과 + docs 출력 + 기존 기능 유지” 상태를 만들어 주세요.

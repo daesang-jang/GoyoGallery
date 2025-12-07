@@ -1,25 +1,23 @@
 import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import ScrollToTop from "@/components/ScrollToTop";
-import NotFound from "@/pages/not-found";
-import Splash from "@/pages/Splash";
-import Home from "@/pages/Home";
-import CurrentExhibitions from "@/pages/CurrentExhibitions";
-import UpcomingExhibitions from "@/pages/UpcomingExhibitions";
-import PastExhibitions from "@/pages/PastExhibitions";
-import ExhibitionDetail from "@/pages/ExhibitionDetail";
-import Artists from "@/pages/Artists";
-import ArtistDetail from "@/pages/ArtistDetail";
-import PublicArt from "@/pages/PublicArt";
-import PublicArtDetail from "@/pages/PublicArtDetail";
-import Consulting from "@/pages/Consulting";
-import ConsultingDetail from "@/pages/ConsultingDetail";
-import Academy from "@/pages/Academy";
-import About from "@/pages/About";
-import Visit from "@/pages/Visit";
+import ScrollToTop from "./components/ScrollToTop";
+import NotFound from "./pages/not-found";
+import Splash from "./pages/Splash";
+import Home from "./pages/Home";
+import CurrentExhibitions from "./pages/CurrentExhibitions";
+import UpcomingExhibitions from "./pages/UpcomingExhibitions";
+import PastExhibitions from "./pages/PastExhibitions";
+import ExhibitionDetail from "./pages/ExhibitionDetail";
+import Artists from "./pages/Artists";
+import ArtistDetail from "./pages/ArtistDetail";
+import PublicArt from "./pages/PublicArt";
+import PublicArtDetail from "./pages/PublicArtDetail";
+import Consulting from "./pages/Consulting";
+import ConsultingDetail from "./pages/ConsultingDetail";
+import Academy from "./pages/Academy";
+import About from "./pages/About";
+import Visit from "./pages/Visit";
 
 function Router() {
   return (
@@ -47,11 +45,8 @@ function Router() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <ScrollToTop />
-        <Router />
-      </TooltipProvider>
+      <ScrollToTop />
+      <Router />
     </QueryClientProvider>
   );
 }
