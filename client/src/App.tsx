@@ -22,6 +22,10 @@ import Visit from "./pages/Visit";
 function Routes() {
   return (
     <Switch>
+      {/* GitHub Pages 프로젝트 주소용 라우트 */}
+      <Route path="/GoyoGallery/" component={Splash} />
+      <Route path="/GoyoGallery" component={Splash} />
+      
       <Route path="/" component={Splash} />
       <Route path="/home" component={Home} />
       <Route path="/exhibitions/current" component={CurrentExhibitions} />
