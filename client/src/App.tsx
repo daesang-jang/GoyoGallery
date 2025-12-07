@@ -43,12 +43,13 @@ function Routes() {
 }
 
 function App() {
-  // GitHub Pages(project page)에서는 path가 /GoyoGallery/... 이라 base 필요
-  // 커스텀 도메인(artgoyo.com)에서는 / 로 들어오므로 base=""
+  // GitHub Pages(daesang-jang.github.io)에서만 /GoyoGallery 를 base로 사용
+  // 커스텀 도메인(artgoyo.com)이나 Replit dev에서는 base = ""
   let base = "";
+
   if (
     typeof window !== "undefined" &&
-    window.location.pathname.startsWith("/GoyoGallery")
+    window.location.hostname === "daesang-jang.github.io"
   ) {
     base = "/GoyoGallery";
   }
@@ -62,5 +63,6 @@ function App() {
     </QueryClientProvider>
   );
 }
+
 
 export default App;
