@@ -1,4 +1,4 @@
-import { Switch, Route } from "wouter";
+import { Switch, Route, Router as WouterRouter } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import ScrollToTop from "./components/ScrollToTop";
@@ -19,7 +19,7 @@ import Academy from "./pages/Academy";
 import About from "./pages/About";
 import Visit from "./pages/Visit";
 
-function Router() {
+function Routes() {
   return (
     <Switch>
       <Route path="/" component={Splash} />
@@ -43,10 +43,22 @@ function Router() {
 }
 
 function App() {
+  // GitHub Pages(project page)에서는 path가 /GoyoGallery/... 이라 base 필요
+  // 커스텀 도메인(artgoyo.com)에서는 / 로 들어오므로 base=""
+  let base = "";
+  if (
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith("/GoyoGallery")
+  ) {
+    base = "/GoyoGallery";
+  }
+
   return (
     <QueryClientProvider client={queryClient}>
-      <ScrollToTop />
-      <Router />
+      <WouterRouter base={base}>
+        <ScrollToTop />
+        <Routes />
+      </WouterRouter>
     </QueryClientProvider>
   );
 }
