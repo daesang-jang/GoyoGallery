@@ -337,28 +337,13 @@ export default function ArtistDetail_kimsan() {
             <section>
               <h3 className="text-m font-semibold text-foreground mb-1">팝업전시 · 아트콜라보</h3>
               <p className="text-m text-muted-foreground leading-snug">
-                2025 DIAF (EXCO, 대구)<br />
-                2025 KIAF Seoul (코엑스 B HALL, 서울)<br />
-                2025 New York Affordable Artfair (Starrett-Lehigh Building 4th Floor, NYC)<br />
-                2025 Toronto Art Show (Meridian Arts Centre, Toronto)<br />
-                2025 아트부산 (벡스코 제1전시관, 부산)<br />
-                2025 화랑미술제 (코엑스 B HALL, 서울)<br />
-                2025 BAMA (벡스코 제1전시관, 부산)<br />
-                2024 KIAF Seoul (코엑스 B HALL, 서울)<br />
-                2024 화랑미술제 in 수원 (수원컨벤션센터, 수원)<br />
-                2024 아트부산 (벡스코 제1전시관, 부산)<br />
-                2024 화랑미술제 (코엑스 C HALL, 서울)<br />
-                2024 We are all Animals (WAAA) (Columbus Centre, Toronto)<br />
-                2024 BAMA (벡스코 제1전시관, 부산)<br />
-                2024 ART TAINAN (실크스 플레이스 호텔, 대만)<br />
-                2024 ONE ART Taipei (메트로폴리탄 프리미어호텔, 대만)<br />
-                2023 Art Formosa (에슬라이트 호텔, 대만)<br />
-                2023 BAMA (벡스코 제1전시관, 부산)<br />
-                2022 서울아트쇼 (코엑스 B HALL, 서울)<br />
-                2022 어반브레이크 (코엑스 B HALL, 서울)<br />
-                2022 울산국제아트페어 (UECO 울산전시컨벤션센터, 울산)<br />
-                2022 BAMA (벡스코 제1전시관, 부산)<br />
-                2021 서울아트쇼 (코엑스 A HALL, 서울)
+                2025 오미로제 연 Sparkling wine Collaboration (오미나라)<br />
+                2025 ‘WINELL’ WINE Collaboration with FANTINI EDIZIONE (와이넬, 서울)<br />
+                2025 ‘WUNDERKAMMER : 진귀한 풍경’ (맨션나인/신세계백화점 사우스시티, 용인)<br />
+                2024 YKA FESTA : 창의력 주유소 (커넥아트/아트뮤즈/서울특별시, 압구정)<br />
+                2024 디자인페스티벌 (바이서우, 현대프리미엄 아울렛 스페이스1)<br />
+                2024 byseowoo 랩원피스, 홈웨어 아트콜라보<br />
+                2023 PARFYMERA 디퓨저 아트콜라보<br />
               </p>
             </section>
 
