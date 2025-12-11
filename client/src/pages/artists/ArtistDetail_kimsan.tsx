@@ -343,7 +343,7 @@ export default function ArtistDetail_kimsan() {
                 2024 YKA FESTA : 창의력 주유소 (커넥아트/아트뮤즈/서울특별시, 압구정)<br />
                 2024 디자인페스티벌 (바이서우, 현대프리미엄 아울렛 스페이스1)<br />
                 2024 byseowoo 랩원피스, 홈웨어 아트콜라보<br />
-                2023 PARFYMERA 디퓨저 아트콜라보<br />
+                2023 PARFYMERA 디퓨저 아트콜라보<br /> 
               </p>
             </section>
 
