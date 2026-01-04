@@ -9,8 +9,11 @@ interface PostMeta {
   slug: string;
   title: string;
   date: string;
+  pressKey?: string;
+  pressName?: string;
   thumbnail?: string;
   excerpt?: string;
+  hideThumbnailInPost?: boolean;
 }
 
 interface PostModule {
