@@ -3,7 +3,7 @@ export const meta = {
   title: "고요갤러리, 여섯 작가와 개관전 'ON VIEW' 개최...“지금 여기의 한국 동시대 미술\"",
   date: "2025-11-26",
   pressKey: "kdfnews",
-  pressName: "kdfnews",
+  pressName: "한국면세뉴스",
   thumbnail: "images/News/20251126-kdfnews.png",
   hideThumbnailInPost: true,
 };

@@ -7,7 +7,7 @@ interface PostMeta {
   slug: string;
   title: string;
   date: string;
-  pressName?: string; // ✅ 추가
+  pressName?: string;
   thumbnail?: string;
   excerpt?: string;
 }
@@ -72,7 +72,7 @@ export default function NewsList() {
                     data-testid={`card-news-${post.slug}`}
                   >
                     {post.thumbnail && (
-                      <div className="flex-shrink-0 w-32 h-24 bg-muted rounded-md overflow-hidden">
+                      <div className="flex-shrink-0 w-28 h-20 md:w-32 md:h-24 bg-muted rounded-md overflow-hidden">
                         <img
                           src={toPublicUrl(post.thumbnail)}
                           alt={post.title}
@@ -82,20 +82,33 @@ export default function NewsList() {
                     )}
 
                     <div className="flex-1 min-w-0">
-                      {/* ✅ 1) 날짜 */}
-                      <time className="text-sm text-muted-foreground">{post.date}</time>
+                      {/* 1) 날짜 */}
+                      <time className="text-xs md:text-sm text-muted-foreground">{post.date}</time>
 
-                      {/* ✅ 2) 타이틀 */}
-                      <h2 className="text-xl font-medium text-foreground mt-1 group-hover:text-primary transition-colors">
+                      {/* 2) 타이틀 (모바일: 화면 크기에 따라 자동 축소 / PC: 기존 유지) */}
+                      <h2
+                        className="
+                          mt-1
+                          font-medium
+                          text-foreground
+                          group-hover:text-primary
+                          transition-colors
+                          break-keep
+                          leading-snug
+                          text-[clamp(15px,4vw,20px)]
+                          md:text-xl
+                          line-clamp-3
+                        "
+                      >
                         {post.title}
                       </h2>
 
-                      {/* ✅ 3) 신문사 (타이틀 아래) */}
+                      {/* 3) 신문사 */}
                       {post.pressName && (
-                        <p className="text-sm text-muted-foreground mt-2">{post.pressName}</p>
+                        <p className="text-xs md:text-sm text-muted-foreground mt-2">{post.pressName}</p>
                       )}
 
-                      {/* (선택) 요약은 신문사 아래로 내려감 */}
+                      {/* (선택) 요약 */}
                       {post.excerpt && (
                         <p className="text-muted-foreground line-clamp-2 mt-2">{post.excerpt}</p>
                       )}
