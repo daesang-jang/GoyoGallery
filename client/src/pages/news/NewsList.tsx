@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link, useSearch } from "wouter";
+import { toPublicUrl } from "./utils";
 
 interface PostMeta {
   slug: string;
@@ -71,7 +72,7 @@ export default function NewsList() {
                     {post.thumbnail && (
                       <div className="flex-shrink-0 w-32 h-24 bg-muted rounded-md overflow-hidden">
                         <img
-                          src={post.thumbnail}
+                          src={toPublicUrl(post.thumbnail)}
                           alt={post.title}
                           className="w-full h-full object-cover"
                         />

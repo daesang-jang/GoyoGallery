@@ -3,6 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import NotFound from "../not-found";
 import { ArrowLeft } from "lucide-react";
+import { toPublicUrl } from "./utils";
 
 interface PostMeta {
   slug: string;
@@ -80,7 +81,7 @@ export default function NewsDetail() {
             {meta.thumbnail && (
               <div className="mb-8 rounded-lg overflow-hidden">
                 <img
-                  src={meta.thumbnail}
+                  src={toPublicUrl(meta.thumbnail)}
                   alt={meta.title}
                   className="w-full h-auto"
                   data-testid="img-post-thumbnail"
