@@ -16,6 +16,8 @@ import PublicArtDetail from "./pages/PublicArtDetail";
 import Consulting from "./pages/Consulting";
 import ConsultingDetail from "./pages/ConsultingDetail";
 import Academy from "./pages/Academy";
+import NewsList from "./pages/news/NewsList";
+import NewsDetail from "./pages/news/NewsDetail";
 import About from "./pages/About";
 import Visit from "./pages/Visit";
 
@@ -39,6 +41,8 @@ function Routes() {
       <Route path="/consulting" component={Consulting} />
       <Route path="/consulting/:id" component={ConsultingDetail} />
       <Route path="/academy" component={Academy} />
+      <Route path="/news" component={NewsList} />
+      <Route path="/news/:slug" component={NewsDetail} />
       <Route path="/about" component={About} />
       <Route path="/visit" component={Visit} />
       <Route component={NotFound} />

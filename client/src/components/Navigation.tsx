@@ -14,6 +14,7 @@ export default function Navigation() {
     { label: "PUBLIC ART", path: "/public-art" },
     { label: "ART CONSULTING", path: "/consulting" },
     { label: "ACADEMY", path: "/academy" },
+    { label: "NEWS", path: "/news" },
     { label: "ABOUT", path: "/about" },
     { label: "VISIT", path: "/visit" },
   ];
