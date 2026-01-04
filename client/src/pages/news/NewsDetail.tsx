@@ -78,16 +78,14 @@ export default function NewsDetail() {
               </h1>
             </header>
 
-            {meta.thumbnail && (
-              <div className="mb-8 rounded-lg overflow-hidden">
-                <img
-                  src={toPublicUrl(meta.thumbnail)}
-                  alt={meta.title}
-                  className="w-full h-auto"
-                  data-testid="img-post-thumbnail"
-                />
-              </div>
+            {meta.thumbnail && !meta.hideThumbnailInPost && (
+              <img
+                src={toPublicUrl(meta.thumbnail)}
+                alt={meta.title || "news thumbnail"}
+                data-testid="img-post-thumbnail"
+              />
             )}
+
 
             <div className="text-foreground" data-testid="div-post-content">
               <PostContent />

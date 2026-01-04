@@ -7,6 +7,7 @@ interface PostMeta {
   slug: string;
   title: string;
   date: string;
+  pressName?: string; // ✅ 추가
   thumbnail?: string;
   excerpt?: string;
 }
@@ -19,7 +20,7 @@ const postModules = import.meta.glob<PostModule>("./posts/*.tsx", { eager: true 
 
 function getAllPosts(): PostMeta[] {
   const posts: PostMeta[] = [];
-  
+
   for (const path in postModules) {
     const mod = postModules[path];
     if (mod.meta) {
@@ -27,10 +28,11 @@ function getAllPosts(): PostMeta[] {
       posts.push({
         ...mod.meta,
         slug: mod.meta.slug || filename,
+        pressName: mod.meta.pressName || "",
       });
     }
   }
-  
+
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
@@ -40,7 +42,7 @@ export default function NewsList() {
   const searchString = useSearch();
   const params = new URLSearchParams(searchString);
   const currentPage = parseInt(params.get("page") || "1", 10);
-  
+
   const allPosts = getAllPosts();
   const totalPages = Math.ceil(allPosts.length / PAGE_SIZE);
   const startIndex = (currentPage - 1) * PAGE_SIZE;
@@ -49,7 +51,7 @@ export default function NewsList() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Navigation />
-      
+
       <main className="pt-32 pb-16 flex-1">
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12">
@@ -78,13 +80,24 @@ export default function NewsList() {
                         />
                       </div>
                     )}
+
                     <div className="flex-1 min-w-0">
+                      {/* ✅ 1) 날짜 */}
                       <time className="text-sm text-muted-foreground">{post.date}</time>
-                      <h2 className="text-xl font-medium text-foreground mt-1 mb-2 group-hover:text-primary transition-colors">
+
+                      {/* ✅ 2) 타이틀 */}
+                      <h2 className="text-xl font-medium text-foreground mt-1 group-hover:text-primary transition-colors">
                         {post.title}
                       </h2>
+
+                      {/* ✅ 3) 신문사 (타이틀 아래) */}
+                      {post.pressName && (
+                        <p className="text-sm text-muted-foreground mt-2">{post.pressName}</p>
+                      )}
+
+                      {/* (선택) 요약은 신문사 아래로 내려감 */}
                       {post.excerpt && (
-                        <p className="text-muted-foreground line-clamp-2">{post.excerpt}</p>
+                        <p className="text-muted-foreground line-clamp-2 mt-2">{post.excerpt}</p>
                       )}
                     </div>
                   </article>
@@ -105,14 +118,12 @@ export default function NewsList() {
                   </button>
                 </Link>
               )}
-              
+
               {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
                 <Link key={page} href={`/news?page=${page}`}>
                   <button
                     className={`px-4 py-2 text-sm rounded-md hover-elevate active-elevate-2 ${
-                      page === currentPage
-                        ? "bg-accent text-accent-foreground"
-                        : "text-foreground"
+                      page === currentPage ? "bg-accent text-accent-foreground" : "text-foreground"
                     }`}
                     data-testid={`button-page-${page}`}
                   >
@@ -120,7 +131,7 @@ export default function NewsList() {
                   </button>
                 </Link>
               ))}
-              
+
               {currentPage < totalPages && (
                 <Link href={`/news?page=${currentPage + 1}`}>
                   <button
