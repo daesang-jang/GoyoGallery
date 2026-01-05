@@ -95,8 +95,8 @@ export default function NewsList() {
                           transition-colors
                           break-keep
                           leading-snug
-                          text-[clamp(15px,4vw,20px)]
-                          md:text-xl
+                          text-[clamp(14px,3vw,18px)]
+                          md:text-base
                           line-clamp-3
                         "
                       >
@@ -105,7 +105,7 @@ export default function NewsList() {
 
                       {/* 3) 신문사 */}
                       {post.pressName && (
-                        <p className="text-xs md:text-sm text-muted-foreground mt-2">{post.pressName}</p>
+                        <p className="text-xs md:text-sm text-muted-foreground mt-1">{post.pressName}</p>
                       )}
 
                       {/* (선택) 요약 */}
