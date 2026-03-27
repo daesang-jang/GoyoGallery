@@ -38,7 +38,7 @@ const artistList: ArtistMeta[] = [
   {
     id: "jangseil",
     name: "장세일",
-    nameEn: "JANG SeIl",
+    nameEn: "JANG Seil",
     medium: "조각 | Sculpture",
     thumbnail: "/images/Artist/jangseil/01_jsi.jpg"
   },
@@ -74,7 +74,7 @@ const artistList: ArtistMeta[] = [
   {
     id: "ohhyuckjin",
     name: "오혁진",
-    nameEn: "OH HyckJin",
+    nameEn: "OH HyuckJin",
     medium: "회화 | Painting",
     thumbnail: "/images/Artist/ohhyuckjin/01_ohj.jpg"
   },
