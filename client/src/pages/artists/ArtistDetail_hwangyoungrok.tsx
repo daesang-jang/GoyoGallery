@@ -94,7 +94,7 @@ export default function ArtistDetail_hwangyoungrok() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                    HWANG YoungRok &lt;공허하게 느껴져도(2024)&gt; 장지에 먹,무소블랙 35.0x90.0cm
+                    HWANG YoungRok &lt;공허하게 느껴져도(2024)&gt; 장지에 채색 35.0x90.0cm
               </p>
             </div>
             <div>
@@ -104,7 +104,7 @@ export default function ArtistDetail_hwangyoungrok() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                  HWANG YoungRok &lt;눈처럼 흩어진(2025)&gt; 장지에 먹,무소블랙 27.3x110.0cm
+                  HWANG YoungRok &lt;눈처럼 흩어진(2025)&gt; 장지에 먹, 아크릴 27.3x110.0cm
               </p>
             </div>
             <div>
@@ -114,7 +114,7 @@ export default function ArtistDetail_hwangyoungrok() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                    HWANG YoungRok &lt;흰 침묵의 무게(2025)&gt; 장지에 먹,무소블랙 65.0x50.0cm
+                    HWANG YoungRok &lt;흰 침묵의 무게(2025)&gt; 빠데, 먹, 아크릴 65.0x50.0cm
               </p>
             </div>
             <div>
@@ -124,7 +124,7 @@ export default function ArtistDetail_hwangyoungrok() {
                 className="w-full rounded-md mb-2"
               />
                   <p className="text-xs text-muted-foreground">
-                    HWANG YoungRok &lt;오늘은 다시 하얀 기억 속에 서 있었다(2025)&gt; 장지에 먹,무소블랙 33.4x24.2cm
+                    HWANG YoungRok &lt;오늘은 다시 하얀 기억 속에 서 있었다(2025)&gt; 장지에 먹,아크릴 33.4x24.2cm
               </p>
             </div>
             <div>
