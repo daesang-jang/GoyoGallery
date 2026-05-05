@@ -16,7 +16,7 @@ export const exhibitions: Exhibition[] = [
     title: "OUR LAND SCAPES",
     titleEn: "OUR LAND SCAPES",
     artists: "고성민  권수연  김지훈 오혁진  황영록",
-    date: "2026.04.01 - 2026.04.01",
+    date: "2026.04.01 - 2026.04.30",
     status: "current", 
     // Stauts 에 값을 past / upcoming / current 로 넣어주면 변경됨
     image: "/images/Home/home260401.png",
